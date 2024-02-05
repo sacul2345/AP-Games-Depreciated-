@@ -8,6 +8,7 @@ html{
     color: white;
     margin-left: 60px;
     padding: 10px;
+    text-align: left;
 }
 body{
     margin: 0;
@@ -40,4 +41,10 @@ nav{
     padding: 0;
     height: 50px;
     display: flex;
+}
+
+#comingSoon{
+    color: white;
+    text-align: center;
+    margin-top: 25%;
 }
