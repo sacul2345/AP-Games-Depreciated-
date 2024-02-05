@@ -30,6 +30,12 @@ body{
     padding-right: 10px;
     text-decoration: none;
 }
+.topNavigator ul li a:hover{
+    background-color: rgb(147, 147, 183);
+}
+.topNavigator ul li a:active{
+    background-color: white;
+}
 
 ul{
     list-style-type: none;
