@@ -52,5 +52,20 @@ nav{
 #comingSoon{
     color: white;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 15%;
+}
+.gameTable tr td figure img, .gameTable tr td figcaption{
+    width: 200px;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 35px;
+}
+table{
+    width: 100%; 
+    table-layout:fixed;
+}
+h1 , h3{
+    color: white;
+    text-align: center;
 }

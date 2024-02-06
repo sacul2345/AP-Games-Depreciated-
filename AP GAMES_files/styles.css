@@ -1,0 +1,71 @@
+html{
+    background-color: rgb(35, 33, 36);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#webHeader {
+    color: white;
+    margin-left: 60px;
+    padding: 10px;
+    text-align: left;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topNavigator ul li a{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: 0px;
+    margin: 1px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(206, 202, 196);
+    background-color: rgb(63, 63, 63);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.topNavigator ul li a:hover{
+    background-color: rgb(147, 147, 183);
+}
+.topNavigator ul li a:active{
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav{
+    background-color:rgb(24, 24, 24);
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    display: flex;
+}
+
+#comingSoon{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+.gameTable tr td figure img, .gameTable tr td figcaption{
+    width: 200px;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 35px;
+}
+table{
+    width: 100%; 
+    table-layout:fixed;
+}
+body.note{
+    color: white;
+    text-align: center;
+}
