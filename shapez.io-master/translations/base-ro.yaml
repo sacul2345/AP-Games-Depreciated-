@@ -1,0 +1,1387 @@
+steamPage:
+    shortText: shapez.io este un joc despre construirea fabricilor pentru a
+        automatiza crearea și combinarea a din ce in ce mai complexe forme
+        într-o hartă infinită.
+    discordLinkShort: Official Discord
+    intro: >-
+        Shapez.io un joc relaxant in care trebuie sa construiești fabrici pentru
+        a automatiza producția de figuri geometrice
+
+        Pe măsură ce nivelul crește figurile devin din ce în ce mai complexe și vei fi nevoit să te extinzi pe harta infinită.
+
+        Daca asta nu era suficient, vei fi nevoit sa produci exponențial mai multe figuri pentru a satisface cererea - singurul lucru care te poate ajuta este extinderea !
+
+        Dacă la început procesezi doar forme, vei fi nevoit sa le colorezi mai târziu - pentru asta vei avea nevoie să extragi și să amesteci culori !
+
+        Cumpărarea jocului pe Steam îți va asigura acesul la versiunea finală, dar te poți juca o versiune demonstrativă pe shapez.io mai întâi și să te decizi mai târziu !
+    what_others_say: Ce spun alții despre shapez.io
+    nothernlion_comment: This game is great - I'm having a wonderful time playing,
+        and time has flown by.
+    notch_comment: Oh crap. I really should sleep, but I think I just figured out
+        how to make a computer in shapez.io
+    steam_review_comment: This game has stolen my life and I don't want it back.
+        Very chill factory game that won't let me stop making my lines more
+        efficient.
+global:
+    loading: Se Încarcă
+    error: Eroare
+    thousandsDivider: ","
+    decimalSeparator: .
+    suffix:
+        thousands: k
+        millions: M
+        billions: B
+        trillions: T
+    infinite: inf
+    time:
+        oneSecondAgo: acum o secundă
+        xSecondsAgo: acum <x> secunde
+        oneMinuteAgo: acum un minut
+        xMinutesAgo: acum <x> minute
+        oneHourAgo: acum o oră
+        xHoursAgo: acum <x> ore
+        oneDayAgo: acum o zi
+        xDaysAgo: acum <x> zile
+        secondsShort: <seconds>s
+        minutesAndSecondsShort: <minutes>m <seconds>s
+        hoursAndMinutesShort: <hours>h <minutes>m
+        xMinutes: <x> minute
+    keys:
+        tab: TAB
+        control: CTRL
+        alt: ALT
+        escape: ESC
+        shift: SHIFT
+        space: SPACE
+    loggingIn: Logare
+    loadingResources: Downloading additional resources (<percentage> %)
+    discount: -<percentage>%
+    discountSummerSale: SPECIAL PROMOTION! Offer ends 7 July
+demoBanners:
+    title: Versiunea Demo
+    intro: |-
+        Obțineți jocul complet <strong>acum</strong> pentru a-l debloca:<ul>
+            <li>Toate cele 26 de nivele + Freeplay infinit</li>
+            <li>22 de clădiri noi</li>
+            <li>Suport pentru moduri</li>
+            <li>Realizări</li>
+            <li>Modul întunecat</li>
+            <li>...și multe altele!</li>
+        </ul>
+    playtimeDisclaimer: Versiunea completă conține mai mult de <strong>20 de ore de
+        conținut</strong>.
+    playerCount: <playerCount> jucători ca tine se joacă în prezent shapez pe Steam
+    untilEndOfDemo: Până la sfârșitul demonstrației
+    playtimeDisclaimerDownload: Puteți continua salvarea în versiunea completă!
+        Faceți clic <strong>aici</strong> pentru a descărca jocul salvat.
+    titleV2: "Joacă acum versiunea completă pentru:"
+mainMenu:
+    play: Joacă
+    changelog: Jurnalul schimbărilor
+    importSavegame: Importă
+    openSourceHint: Acest joc este open source!
+    discordLink: Serverul oficial de Discord
+    helpTranslate: Ajută să traducem!
+    browserWarning: Scuze, dar jocul este cunoscut să ruleze încet pe browser-ul
+        tău! Instalează versiunea standalone sau descarcă chrome pentru
+        experiența completă.
+    savegameLevel: Nivelul <x>
+    savegameLevelUnknown: Nivel necunoscut
+    continue: Continuă
+    newGame: Joc nou
+    madeBy: Făcut de <author-link>
+    subreddit: Reddit
+    savegameUnnamed: Fară nume
+    puzzleMode: Puzzle Mode
+    back: Back
+    puzzleDlcText: Îți place să compresezi și să optimizezi fabricile ? Ia acum
+        Puzzle DLC pe Steam pentru mai multă distracție !
+    puzzleDlcWishlist: Adaugă în Wishlist acum!
+    puzzleDlcViewNow: Vezi DlC
+    mods:
+        title: Active Mods
+        warningPuzzleDLC: Playing the Puzzle DLC is not possible with mods. Please
+            disable all mods to play the DLC.
+    playingFullVersion: You are now playing the full version!
+    logout: Logout
+    noActiveSavegames: No active savegames found - Click play to start a new game!
+    playFullVersionV2: Bough shapez on Steam? Play the full version in your Browser!
+    playFullVersionStandalone: You can now also play the full version in your Browser!
+dialogs:
+    buttons:
+        ok: OK
+        delete: Șterge
+        cancel: Anulează
+        later: Mai târziu
+        restart: Restartează
+        reset: Resetează
+        getStandalone: Instalează Standalone-ul
+        deleteGame: Știu ce fac
+        viewUpdate: Vezi Update-ul
+        showUpgrades: Vezi Upgrade-urile
+        showKeybindings: Arată tastele configurate
+        retry: Reîncearcă
+        continue: Continue
+        playOffline: Joacă Offline
+    importSavegameError:
+        title: Eroare la Importare
+        text: "Încercarea de importare a eșuat:"
+    importSavegameSuccess:
+        title: Salvarea importată
+        text: Salvarea ta a fost importată cu succes.
+    gameLoadFailure:
+        title: Jocul este corupt
+        text: "Încercarea de a încărca salvarea a eșuat:"
+    confirmSavegameDelete:
+        title: Confirmă ștergerea
+        text: Ești sigur că vrei să ștergi următoarea salvare?<br><br> '<savegameName>'
+            la nivelul <savegameLevel><br><br> Acest lucru nu poate fi anulat!
+    savegameDeletionError:
+        title: Eroare la ștergere
+        text: "Nu a fost reușită ștearga salvarii:"
+    restartRequired:
+        title: Repornire necesară
+        text: Trebuie să repornești jocul pentru a aplica setările.
+    editKeybinding:
+        title: Schimbă Tastele configurate
+        desc: Apasă tasta sau butonul mouse-ului pe care vrei să îl atribui, sau escape
+            pentru a anula.
+    resetKeybindingsConfirmation:
+        title: Resetează Tastele configurate
+        desc: Acesta va reseta toate tastele configurate la valorile obișnuite. Vă rog
+            să confirmați.
+    keybindingsResetOk:
+        title: Tastele configurate se resetează
+        desc: Tastele configurate au fost resetate la valorile lor obișnuite!
+    featureRestriction:
+        title: Versiune Demo
+        desc: Ai încercat să accesezi o funcție (<feature>) care nu este disponibilă în
+            demo. Consideră să instalezi standalone-ul pentru experiența
+            completă!
+    oneSavegameLimit:
+        title: Salvări limitate
+        desc: Poți avea doar o salvare în același timp în versiunea demo. Te rugăm
+            șterge-o pe cea existentă sau instalează standalone-ul!
+    updateSummary:
+        title: Update nou!
+        desc: "Aici sunt schimbările de când ai jucat ultima oară:"
+    upgradesIntroduction:
+        title: Deblochează Upgrade-uri
+        desc: Toate formele pe care le produci pot fi folosite să deblochezi upgrade-uri
+            - <strong>Nu îți distruge vechile fabrici!</strong> Fila
+            upgrade-urilor poate fi găsită în colțul din dreapta sus al
+            ecranului.
+    massDeleteConfirm:
+        title: Confirmă ștergerea
+        desc: Stergeți multe construcții (<count> pentru a fi exact)! Sunteți sigur că
+            vreți să faceți asta?
+    blueprintsNotUnlocked:
+        title: Nu este deblocat încă
+        desc: Planurile nu au fost deblocate încă! Completează mai multe nivele să le
+            deblochezi.
+    keybindingsIntroduction:
+        title: Taste configurate folositoare
+        desc: "Acest joc are multe taste configurate care fac construitul fabricilor
+            mari mai ușor. Aici sunt câteva dar, fii sigur să <strong>verifici
+            tastele configurate</strong>!<br><br> <code
+            class='keybinding'>CTRL</code> + Drag: Selectează o zonă pentreu a
+            copia  / delete.<br> <code class='keybinding'>SHIFT</code>: Ține
+            apăsat pentru a plasa mai multe dintr-o clădire.<br> <code
+            class='keybinding'>ALT</code>: Inversează orientarea benzilor
+            rulante.<br>"
+    createMarker:
+        title: Waypoint nou
+        desc: Dă-i un nume sugestiv, poți include și o <strong> scurtă cheie </strong> a
+            unei figuri (Pe care o poți genera <link>aici</link>)
+        titleEdit: Editează Marker
+    markerDemoLimit:
+        desc: Poți crea decât două waypoint-uri personalizate în demo. Ia standalone-ul
+            pentru Waypoint-uri nelimitate!
+    massCutConfirm:
+        title: Confirmă decuparea
+        desc: Tu decupezi mai multe construcții (<count> pentru a fi precis)! Sunteți
+            sigur că vreți să faceți asta?
+    exportScreenshotWarning:
+        title: Exportează captură de ecran
+        desc: Ai solicitat să exportezi baza ta ca o captură de ecran. Vă rugăm să
+            rețineți că asta poate fi destul de lent pentru o bază mare și poate
+            chiar să blocheze jocul!
+    massCutInsufficientConfirm:
+        title: Confirmă decuparea
+        desc: Nu vă permiteți sa lipiți această zona ! Suntți sigur că doriți să o
+            decupați ?
+    editSignal:
+        title: Setați semnal
+        descItems: "Selectați un item predefinit :"
+        descShortKey: ... sau introduceți <strong>cheia scurtă</strong> a unei forme (Pe
+            care o puteți genera <link>aici</link>)
+    renameSavegame:
+        title: Redenumiți salvarea
+        desc: Îți poți redenumi salvarea aici
+    tutorialVideoAvailable:
+        title: Tutorial Disponibil
+        desc: Există un tutorial video pentru acest nivel! Ați dori să îl vizionați?
+    tutorialVideoAvailableForeignLanguage:
+        title: Tutorial Disponibil
+        desc: Există un tutorial video pentru acest nivel, dar este disponibil doar în
+            engleză. Ați dori să în vizionați?
+    editConstantProducer:
+        title: Setează Item
+    puzzleLoadFailed:
+        title: Încărcarea puzzleurilor a eșuat
+        desc: "Din păcate puzzelurile nu au putut fi încărcate:"
+    submitPuzzle:
+        title: Trimite Puzzle
+        descName: "Dă puzzle-ului tău un nume:"
+        descIcon: "Te rog introdu o cheie scurtă, care va fi folosită ca iconiță pentru
+            puzzleul tău (Le poți genera <link>aici</link>, sau poți alege una
+            din cele generate aleator de mai jos):"
+        placeholderName: Titlu Puzzle
+    puzzleResizeBadBuildings:
+        title: Redimenisonarea nu e posibilă
+        desc: Nu poți face zona asta mai mică, altfel unele clădiri vor fi înafara
+            zonei.
+    puzzleLoadError:
+        title: Puzzle Defect
+        desc: "Puzzle-ul nu a putut fi încărcat:"
+    offlineMode:
+        title: Mod Offline
+        desc: Nu am putut face conexiunea la servere, deci jocul trebuie să ruleze în
+            modul offine. Te rog verifică dacă ai o conexiune activă la
+            internet.
+    puzzleDownloadError:
+        title: Eroare la descărcare
+        desc: "Descărcarea puzzle-ului a eșuat:"
+    puzzleSubmitError:
+        title: Eroare la trimitere
+        desc: "Trimiterea puzzle-ului a eșuat:"
+    puzzleSubmitOk:
+        title: Puzzle Publicat
+        desc: Felicitări! Puzzle-ul tău a fost publicat și poate fi jucat acum de
+            ceilalți. Îl poți găsi în secțiunea "Puzzle-urile mele".
+    puzzleCreateOffline:
+        title: Mod Offline
+        desc: Deoarece ești online nu poți salva/publica un puzzle. Dorești să continui
+            ?
+    puzzlePlayRegularRecommendation:
+        title: Recomandare
+        desc: Recomand <strong>cu tărie</strong> jucarea normală a jocului până la
+            nivelul 12 înainte de a încerca DLC-ul Puzzle, altfel e posibil să
+            întâlnești mecanici care nu au fost prezentate încă. Sigur dorești
+            să continui ?
+    puzzleShare:
+        title: Cheie scurtă copiată
+        desc: Cheia scurtă a unui puzzle (<key>) a fost copiată în clipboard! Poate fi
+            introdusă in meniul puzzle pentru a accesa puzzle-ul respectiv.
+    puzzleReport:
+        title: Raportează Puzzle
+        options:
+            profane: Vulgar
+            unsolvable: Nu poate fi rezolvat
+            trolling: Trolaj
+    puzzleReportComplete:
+        title: Mulțumim pentru feedbackul dumneavoastră!
+        desc: Puzzle-ul a fost marcat.
+    puzzleReportError:
+        title: Eroare la raportare
+        desc: "Raportarea dumneavoastră nu a putut fi procesată:"
+    puzzleLoadShortKey:
+        title: Inserează cheie scurtă
+        desc: Inserează cheia scurtă a puzzleului pentru a îl încărca
+    puzzleDelete:
+        title: Șterge Puzzle?
+        desc: Ești sigur că vrei să ștergi '<title>'? Această modificare e permanentă!
+    modsDifference:
+        title: Mod Warning
+        desc: The currently installed mods differ from the mods the savegame was created
+            with. This might cause the savegame to break or not load at all. Are
+            you sure you want to continue?
+        missingMods: Missing Mods
+        newMods: Newly installed Mods
+    resourceLoadFailed:
+        title: Resources failed to load
+        demoLinkText: shapez demo on Steam
+        descWeb: "One ore more resources could not be loaded. Make sure you have a
+            stable internet connection and try again. If this still doesn't
+            work, make sure to also disable any browser extensions (including
+            adblockers).<br><br> As an alternative, you can also play the
+            <demoOnSteamLinkText>. <br><br> Error Message:"
+        descSteamDemo: "One ore more resources could not be loaded. Try restarting the
+            game - If that does not help, try reinstalling and verifying the
+            game files via Steam. <br><br> Error Message:"
+    steamSsoError:
+        title: Full Version Logout
+        desc: You have been logged out from the Full Browser Version since either your
+            network connection is unstable or you are playing on another
+            device.<br><br> Please make sure you don't have shapez open in any
+            other browser tab or another computer with the same Steam
+            account.<br><br> You can login again in the main menu.
+    steamSsoNoOwnership:
+        title: Full Edition not owned
+        desc: In order to play the Full Edition in your Browser, you need to own both
+            the base game and the Puzzle DLC on your Steam account.<br><br>
+            Please make sure you own both, signed in with the correct Steam
+            account and then try again.
+ingame:
+    keybindingsOverlay:
+        moveMap: Mișcă-te
+        selectBuildings: Selectează zona
+        stopPlacement: Oprește plasarea
+        rotateBuilding: Rotește construcția
+        placeMultiple: Plasează mai multe
+        reverseOrientation: Întoarce orientarea
+        disableAutoOrientation: Dezactivați auto orientarea
+        toggleHud: Comută Interfața
+        placeBuilding: Plasează construcția
+        createMarker: Crează Waypoint
+        delete: Distruge
+        pasteLastBlueprint: Lipește ultimul plan
+        lockBeltDirection: Activează planificator de benzi
+        plannerSwitchSide: Întoarce partea planificatorului
+        cutSelection: Taie
+        copySelection: Copiază
+        clearSelection: Golește Secțiunea
+        pipette: Pipetă
+        switchLayers: Schimbă straturi
+        clearBelts: Golește benzile
+    buildingPlacement:
+        cycleBuildingVariants: Apasă <key> pentru a parcurge variantele disponibile.
+        hotkeyLabel: "Tasta: <key>"
+        infoTexts:
+            speed: Viteză
+            range: Distanță
+            storage: Capacitate
+            oneItemPerSecond: 1 obiect / secundă
+            itemsPerSecond: <x> obiecte / s
+            itemsPerSecondDouble: (x2)
+            tiles: <x> Câmpuri
+    levelCompleteNotification:
+        levelTitle: Nivelul <level>
+        completed: Completat
+        unlockText: Ai deblocat <reward>!
+        buttonNextLevel: Nivelul următor
+    notifications:
+        newUpgrade: Un upgrade nou este disponibil!
+        gameSaved: Jocul tău a fost salvat.
+        freeplayLevelComplete: Nivelul <level> a fost completat!
+    shop:
+        title: Upgrade-uri
+        buttonUnlock: Upgrade
+        tier: Nivel <x>
+        maximumLevel: NIVELUL MAXIM (Speed x<currentMult>)
+    statistics:
+        title: Statistici
+        dataSources:
+            stored:
+                title: Stocate
+                description: Afișează numărul de forme stocate în construcția centrală .
+            produced:
+                title: Produse
+                description: Afișează toate formele pe care fabrica ta le produce, incluzând
+                    produsele intermediate.
+            delivered:
+                title: Livrate
+                description: Afișează formele care sunt livrate la construcția centrală.
+        noShapesProduced: Nicio formă nu a fost produsă până acum.
+        shapesDisplayUnits:
+            second: <shapes> / s
+            minute: <shapes> / m
+            hour: <shapes> / h
+    settingsMenu:
+        playtime: Timp jucat
+        buildingsPlaced: Construcții
+        beltsPlaced: Benzi
+    tutorialHints:
+        title: Ai nevoie de ajutor?
+        showHint: Arată indiciu
+        hideHint: Închide
+    blueprintPlacer:
+        cost: Preț
+    waypoints:
+        waypoints: Waypointuri
+        hub: Interfață
+        description: Click-stânga pe un waypoint pentru a merge la el, click-dreapta
+            pentru a îl șterge.<br><br>Apasă <keybinding> pentru a crea un
+            waypoint din perspectiva actuală, sau <strong>click-dreapta</strong>
+            pentru a crea un waypoint.
+        creationSuccessNotification: Waypointul a fost creat.
+    interactiveTutorial:
+        title: Tutorial
+        hints:
+            1_1_extractor: Plasează un <strong>extractor</strong> pe o <strong>formă de
+                cerc</strong> pentru a o extrage!
+            1_2_conveyor: "Conectează extractorul cu o<strong>bandă rulantă</strong> până la
+                centru!<br><br>Sfat: <strong>Click și trage</strong> banda cu
+                mouse-ul tău!"
+            1_3_expand: "Acesta <strong>NU</strong> este un joc de tip idle! Construiește
+                mai multe extractoare și benzi pentru a finaliza scopul mai
+                rapid.<br><br>Sfat: Ține apăsat <strong>SHIFT</strong> pentru a
+                plasa mai multe extractoare, și folosește <strong>R</strong>
+                pentru a le roti."
+            2_1_place_cutter: "Acum plasează un <strong>tăietor</strong> pentru a tăia
+                cercurile în două jumatăți!<br><br> PS: Tăietorul mereu taie de
+                <strong>sus în jos</strong> indiferent de orientare."
+            2_2_place_trash: Tăietoarul poate fi <strong>înfundat și
+                blocat</strong>!<br><br> Folosește <strong>coșul de
+                gunoi</strong> pentru a scăpa de bucățile inutile.
+            2_3_more_cutters: "Bună treabă! Acum pune <strong>încă 2 tăietoare</strong>
+                pentru a mări viteza acestui proces încet!<br><br> PS: Folosește
+                <strong> tastele rapide 0-9</strong> pentru a selecta
+                construcțiile mai rapid!"
+            3_1_rectangles: "Acum să extragem niște pătrate! <strong>Construiește 4
+                extractoare</strong> și conectează-le la hub.<br><br> PS: Ține
+                apăsat <strong>SHIFT</strong> în timp ce tragi o banda pentru a
+                activa planificatorul de benzi!"
+            21_1_place_quad_painter: Plasează <strong>vopsitorul cvadruplu</strong> și fă
+                rost de <strong>cercuri</strong> de culori <strong>albe</strong>
+                și <strong>roșii</strong>!
+            21_2_switch_to_wires: Comută la stratul cabluri apăsând
+                <strong>E</strong>!<br><br> Apoi <strong>conectează toate cele 4
+                intrări </strong>ale vopsitorului cu cabluri!
+            21_3_place_button: Grozav! Acum plasează un <strong>Întrerupător</strong> și
+                conectează-l cu cabluri!
+            21_4_press_button: "Apasă pe intrerupător pentru a <strong>emite semnalul
+                ADEVĂRAT</strong> și pentru a activa vopsitorul.<br><br> PS: Nu
+                e necesar să conectezi toate cele 4 intrări! Încearcă să
+                conectezi doar 2."
+            1_2_hold_and_drag: Țineți apăsat și trageți
+    colors:
+        red: Roșu
+        green: Verde
+        blue: Albastru
+        yellow: Galben
+        purple: Mov
+        cyan: Cyan
+        white: Alb
+        uncolored: Necolorat
+        black: Negru
+    shapeViewer:
+        title: Start
+        empty: Gol
+        copyKey: Copiază Cheie
+    connectedMiners:
+        one_miner: 1 Miner
+        n_miners: <amount> Miners
+        limited_items: Limitat la <max_throughput>
+    watermark:
+        title: Versiune Demo
+        desc: Apasă aici pentru a vedea avantajele versiunii Steam!
+        get_on_steam: Ia pe Steam
+    standaloneAdvantages:
+        no_thanks: Nu, mersi!
+        points:
+            levels:
+                title: 12 Nivele Noi
+                desc: Pentru un total de 26 de nivele!
+            buildings:
+                title: 22 construcții noi
+                desc: Automatizează-ti complet fabrica!
+            markers:
+                title: Marcatoare infinite
+                desc: Nu te rătăci niciodată în fabrică!
+            wires:
+                title: Cabluri
+                desc: O dimeniune complet nouă!
+            darkmode:
+                title: Mod întunecat
+                desc: Nu mai lăsa ochii să te doară!
+            support:
+                title: Ajută-mă
+                desc: Dezvolt jocuri în timpul meu liber!
+            achievements:
+                title: Realizări
+                desc: Vânează-le pe toate!
+            mods:
+                title: Modding support!
+                desc: Over 80 mods available!
+        titleV2: "Get the full version now on Steam to unlock:"
+        titleExpiredV2: Demo completed!
+        titleEnjoyingDemo: Enjoy the demo?
+    puzzleEditorSettings:
+        zoneTitle: Zonă
+        zoneWidth: Lățime
+        zoneHeight: Înăltime
+        trimZone: Taie
+        clearItems: Golește iteme
+        share: Distribuie
+        report: Raportează
+        clearBuildings: Șterge construcții
+        resetPuzzle: Resetează Puzzle
+    puzzleEditorControls:
+        title: Creator de puzzle
+        instructions:
+            - 1. Plasează <strong>Producătoare Constante</strong> care să ofere
+              forme și culori jucătorului.
+            - 2. Produ una sau mai multe forme pe care jucătorul să le producă
+              și să le livreze la <strong>Acceptorul de obiective</strong>
+            - 3. Odată ce acceptorul de obiective primește o formă pentru un
+              timp suficient, acesta <strong>îl salvează ca obiectiv</strong> pe
+              care jucătorul trebuie să îl producă (Indicat de <strong>insigna
+              verde</strong>).
+            - 4. Apasă pe <strong>butonul blochează</strong> pe o clădire pentru
+              a o dezactiva
+            - 5. Odată ce ai apăsat revizurie, puzzle-ul tău va fi validat și îl
+              vei putea publica.
+            - 6. Odată lansat, <strong>toate constucțiile vor fi
+              distruse</strong> cu excepția producătoarelor constante și a
+              acceptoarelorl de obiective
+            - null
+    puzzleCompletion:
+        title: Puzzle Completat!
+        titleLike: "Apasă pe inimă dacă ți-a plăcut :"
+        titleRating: Cât de dificil ți s-a părut?
+        titleRatingDesc: Recenzia ta mă va ajuta să îți fac recomandări mai bune pe viitor !
+        continueBtn: Continua joaca
+        menuBtn: Meniu
+        nextPuzzle: Puzzle-ul Următor
+    puzzleMetadata:
+        author: Autor
+        shortKey: Cheie scurtă
+        rating: Scor dificultate
+        averageDuration: Durată medie
+        completionRate: Rată completare
+shopUpgrades:
+    belt:
+        name: Benzi, Distribuitor & Tunele
+        description: Viteza x<currentMult> → x<newMult>
+    miner:
+        name: Extractoare
+        description: Viteza x<currentMult> → x<newMult>
+    processors:
+        name: Tăiere, Rotație & Presare
+        description: Viteza x<currentMult> → x<newMult>
+    painting:
+        name: Amestecare & Pictare
+        description: Viteza x<currentMult> → x<newMult>
+buildings:
+    belt:
+        default:
+            name: Benzi Rulante
+            description: Transportă obiecte, ține apăsat și trage pentru a plasa mai multe.
+    miner:
+        default:
+            name: Extractor
+            description: Plasează peste o formă sau culoare pentru a o extrage.
+        chainable:
+            name: Extractor (lanț)
+            description: Plasează peste o formă sau culoare pentru a o extrage. Poate fi
+                înlănțuit.
+    underground_belt:
+        default:
+            name: Tunel
+            description: Permite transportarea resurselor pe sub construcții și benzi.
+        tier2:
+            name: Tunnel Nivel II
+            description: Permite transportarea resurselor pe sub construcții și benzi.
+    cutter:
+        default:
+            name: Tăietor
+            description: Taie forme de sus în jos și scoate ambele jumătăți. <strong>Dacă
+                folosești doar o parte, ține minte să o distrugi pe cealaltă sau
+                producția se va opri!</strong>
+        quad:
+            name: Tăietor (Cvadruplu)
+            description: Taie formele în patru părți. <strong>Dacă folosești doar o parte,
+                ține minte să o distrugi pe cealaltă sau producția se va
+                opri!</strong>
+    rotater:
+        default:
+            name: Rotitor
+            description: Rotește formele în sensul acelor de ceasornic la 90 de grade.
+        ccw:
+            name: Rotitor (CCW)
+            description: Rotește formele în sensul invers acelor de ceasornic la 90 de
+                grade.
+        rotate180:
+            name: Rotitor (180)
+            description: Rotește formele cu 180 de grade.
+    stacker:
+        default:
+            name: Mașină de presat
+            description: Unește ambele obiecte. Dacă ele nu poti fi unite, obiectul drept va
+                fi pus deasupra obiectul stâng.
+    mixer:
+        default:
+            name: Mixer de culori
+            description: Amestecă două culori folosind amestecuri aditive.
+    painter:
+        default:
+            name: Mașină de pictat
+            description: Colorează întreaga formă din input-ul stâng folosind culoarea din
+                input-ul drept.
+        double:
+            name: Mașină de pictat (Dublu)
+            description: Colorează formele din input-urile din stânga folosind culoarea din
+                input-ul de sus.
+        quad:
+            name: Mașină de pictat (Cvadruplu)
+            description: Îți permite să colorezi fiecare sfert de figură individual. Doar
+                sloturile cu <strong>semnalul ADEVARAT</strong> pe stratul de
+                cabluri va fi colorat!
+        mirrored:
+            name: Mașină de pictat
+            description: Colorează întreaga formă din input-ul stâng folosind culoarea din
+                input-ul drept.
+    trash:
+        default:
+            name: Gunoi
+            description: Acceptă input-uri din toate părțile și le distruge. Pentru
+                totdeauna.
+    hub:
+        deliver: Livrează
+        toUnlock: pentru a debloca
+        levelShortcut: LVL
+        endOfDemo: Sfărșitul Demo-ului
+    wire:
+        default:
+            name: Cabluri de energie
+            description: Îți permite să transporți energie.
+        second:
+            name: Cabluri
+            description: Transportă semnale, care pot fi culori sau valori binare (1/0)
+                Cablurile colorate diferit nu se conectează
+    balancer:
+        default:
+            name: Balansor
+            description: Multifunctional - Distribuie toate input-urile catre toate
+                output-urile.
+        merger:
+            name: Merger (compact)
+            description: Unește două benzi la una.
+        merger-inverse:
+            name: Merger (compact)
+            description: Unește două benzi la una.
+        splitter:
+            name: Splitter (compact)
+            description: Împarte o bandă în două.
+        splitter-inverse:
+            name: Splitter (compact)
+            description: Împarte o bandă în două.
+    storage:
+        default:
+            name: Depozit
+            description: Depozitează iteleme în exces, până la o anumită capacitate.
+                Prioritizează output-ul stâng și poate fi folosit ca o poartă de
+                revărsare.
+    wire_tunnel:
+        default:
+            name: Intersecție cabluri
+            description: Permite intersectarea a doua cabluri fără a le conecta
+    constant_signal:
+        default:
+            name: Semnal constant
+            description: Emite un semnal constant, ce poate fi o formă, culoare sau o
+                valoare binară (1 / 0).
+    lever:
+        default:
+            name: Întrerupător
+            description: Poate fi pus să emită un semnal binar (1/0) pe stratul cabluri,
+                putând fi folosit de exemplu cu un filtru de iteme.
+    logic_gate:
+        default:
+            name: Poartă AND
+            description: Emite valoarea binară "1" daca ambele input-uri sunt adevărate.
+                (adevarat înseamna formă, culoare sau valoarea binară "1")
+        not:
+            name: Poartă NOT
+            description: Emite valoarea binară "1" daca input-ul nu este adevărat. (adevarat
+                înseamna formă, culoare sau valoarea binară "1")
+        xor:
+            name: Poartă XOR
+            description: Emite valoarea binară "1" daca unul din input-uri e adevărat, dar
+                nu ambele. (adevarat înseamna formă, culoare sau valoarea binară
+                "1")
+        or:
+            name: Poartă OR
+            description: Emite valoarea binară "1" daca unul sau mai multe input-uri este
+                adevărat. (adevarat înseamna formă, culoare sau valoarea binară
+                "1")
+    transistor:
+        default:
+            name: Tranzistor
+            description: Transmite valoarea de la input-ul de jos daca input-ul din lateral
+                este adevarat (adevarat înseamna formă, culoare sau valoarea
+                binară "1").
+        mirrored:
+            name: Transistor
+            description: Transmite valoarea de la input-ul de jos daca input-ul din lateral
+                este adevarat (adevarat înseamna formă, culoare sau valoarea
+                binară "1").
+    filter:
+        default:
+            name: Filtru
+            description: Conectează un semnal pentru a direcționa toate itemele
+                corespunzătoare în sus, iar restul către dreapta. Poate fi
+                controlat cu semnale binare.
+    display:
+        default:
+            name: Display
+            description: Conectează un semnal pentru a îl asișa pe display - Poate fi o
+                formă, o culoare sau valoare binară.
+    reader:
+        default:
+            name: Cititor de bandă
+            description: Permite măsurarea debitului mediu al benzii. Transmite ultimul item
+                citit pe statul cabluri (odată deblocat).
+    analyzer:
+        default:
+            name: Analizator de formă
+            description: Analyzes the top right quadrant of the lowest layer of the shape
+                and returns its shape and color.
+    comparator:
+        default:
+            name: Comparator
+            description: Returnează valoarea binară "1" dacă semnalele sunt egale. Poate
+                compara forme, coloari, valori binare
+    virtual_processor:
+        default:
+            name: Tăietor virtual
+            description: Taie virtual forma în două
+        rotater:
+            name: Rotitor virtual
+            description: Rotește virtual forma în ambele direcții.
+        unstacker:
+            name: Desfăcător virtual
+            description: Extrage virtual stratul de deasupra către output-ul din dreapta și
+                cel ce rămâne în stânga.
+        stacker:
+            name: Stivuitor virtual
+            description: Stivuiește virtual forma din dreapta peste fomrma din stânga.
+        painter:
+            name: Vopsitor virtual
+            description: Vopsește virual forma din input-ul de jos cu cea din dreapta.
+    item_producer:
+        default:
+            name: Producător de item
+            description: Disponsibil doar în modul sandbox, semnalul primit de pe stratul
+                cabluri pe stratul normal.
+    constant_producer:
+        default:
+            name: Producator de constantă
+            description: Produce constant o anumită formă/culoare
+    goal_acceptor:
+        default:
+            name: Acceptor de obiective
+            description: Livrează formele la acceptorul de obiective pentru a le seta ca
+                obiectiv.
+    block:
+        default:
+            name: Bloc
+            description: Îți permite să blochezi o căsuță.
+storyRewards:
+    reward_cutter_and_trash:
+        title: Tăierea formelor
+        desc: Tocmai ai deblocat <strong>tăietorul</strong>, care taie formele în
+            jumătate de sus in jos <strong>indiferent de orientare
+            </strong>!<br><br>Asigură-te că scapi de bucățile inutile, ori
+            altfel <strong>o să se înfunde și o să se oprească</strong> - Pentru
+            asta ți-am dat <strong>cosul de gunoi</strong> care distruge tot ce
+            pui în el!
+    reward_rotater:
+        title: Rotitul
+        desc: <strong>Rotitorul</strong> a fost deblocat! El rotește formele la 90 de
+            grade.
+    reward_painter:
+        title: Pictatul
+        desc: "The <strong>Vopsitorul</strong> a fost deblocată - Extrage niște culori
+            (la fel cum faci și cu formele) și combină-le cu o formă în mașina
+            de pictat pentru a le colora!<br><br>PS: Dacă ești daltonist, există
+            un <strong>mod pentru daltoniști</strong> în setări!"
+    reward_mixer:
+        title: Amestecatul culorilor
+        desc: <strong>Mixerul</strong> a fost deblocat - Combină două culori folosind
+            <strong>amestecul de culori</strong> cu această clădire!
+    reward_stacker:
+        title: Mașina de presat
+        desc: Acum poți combina forme cu <strong>mașina de presat</strong>! Ambele
+            input-uri vor fi combinate, iar dacă ele pot fi puse alături, ele
+            vor fi <strong>sudate</strong>. Dacă nu, input-ul drept este
+            <strong>pus peste</strong> input-ul stâng!
+    reward_splitter:
+        title: Distribuitor/Combinator
+        desc: Ai deblocat <strong>împărțitorul</strong> o variantă <strong>a
+            balansorului</strong> - Acceptă un input și în împarte în două!
+    reward_tunnel:
+        title: Tunel
+        desc: <strong>Tunelul</strong> a fost deblocat - Acum poți deplasa obiecte pe
+            sub benzi și construcții cu el!
+    reward_rotater_ccw:
+        title: Rotitul CCW
+        desc: Ai deblocat o variantă a <strong>rotitorului</strong> - El permite rotația
+            în sensul invers al acelor de ceasornic! Pentru a îl construi,
+            selectează rotitorul și <strong>apasă 'T' pentru a parcurge
+            variantele </strong>!
+    reward_miner_chainable:
+        title: Extractor în lanț
+        desc: "Ai deblocat <strong>extractorul în lanț</strong>! El poate
+            <strong>transmite resursele</strong> către celelalte extractoare
+            încât minarea resurselor să fie mai eficientă<br><br> PS:
+            Extractorul vechi a fost înlocuit cu cel nou in bara de unelte!"
+    reward_underground_belt_tier_2:
+        title: Tunel nivel II
+        desc: Ai deblocat o variantă nouă a <strong>tunelului</strong> - El are
+            <strong>distanță mai mare</strong>, iar tu poți de asemenea să
+            alternezi acele tunele acum!
+    reward_cutter_quad:
+        title: Tăiatul quadriplu
+        desc: Ai deblocat o variantă a <strong>tăietorului</strong> - El îți permite să
+            tai forme în <strong>patru părți</strong> în loc de două!
+    reward_painter_double:
+        title: Pictatul dublu
+        desc: Ai deblocat o variantă a <strong>Mașini de pictat</strong> - Funcționează
+            la fel ca o mașină de pictat normală dar, procesează <strong>două
+            forme odată</strong> consumând doar o culoare în loc de două!
+    reward_storage:
+        title: Depozitul
+        desc: Ai deblocat <strong>depozitul</strong> - Îți permite să stochezi iteme
+            până la o anumită capacitate!<br><br> El prioritizează output-ul
+            stâng, deci îl poți folosi ca o <strong>poarta de
+            revărsare</strong>!
+    reward_freeplay:
+        title: Jocul liber
+        desc: Ai reușit!Ai deblocat modul <strong>liber</strong>! Asta înseamnă că
+            formele sunt acum generate <strong>aleator</strong> !<br><br>
+            Deoarece hub-ul va necesita un <strong>debit</strong> mare de acum,
+            recomand să construiești o mașinărie care produce automat si
+            livrează forma cerută!<br><br> HUB-ul are forma ceută pe stratul
+            cabluri, deci tot ce trebuie să faci e să analizezi forma cerută și
+            să configurezi automat fabrica pentru asta !
+    reward_blueprints:
+        title: Planuri
+        desc: Acum poți <strong>copia și lipi</strong> părți ale fabrici tale!
+            Selectează o zonă (Ține apăsat CTRL, apoi trage cu mouse-ul tău), și
+            apasă 'C' pentru a o copia.<br><br>Lipitul nu este
+            <strong>gratis</strong>, ai nevoie să produci <strong>forme de
+            planuri </strong> pentru a ți le permite! (Acelea pe care tocmai
+            le-ai livrat).
+    no_reward:
+        title: Nivelul următor
+        desc: "Acest nivel nu ți-a dat nimic dar, următor îți va da! <br><br> PS: Mai
+            bine nu îți distruge fabricile construite - Ai nevoie de
+            <strong>toate</strong> acele forme mai târziu din nou pentru a
+            <strong>debloca upgrade-uri</strong>!"
+    no_reward_freeplay:
+        title: Nivelul următor
+        desc: Felicitări! Apropo, mai mult conținut este planificat pentru versiunea
+            standalone!
+    reward_balancer:
+        title: Balansor
+        desc: Acest multifuncțional <strong>balansor</strong> a fost deblocat - El poate
+            fi folosit pentru a construi fabrici mai mari <strong>împarțind și
+            îmbinând itemele</strong> pe benzi multiple!
+    reward_merger:
+        title: Compact Merger
+        desc: Ai deblocat <strong>Compact Merger</strong> o varianta a
+            <strong>balansorului</strong> - Accepta doua input-uri si le imbina
+            pe o singura banda!
+    reward_belt_reader:
+        title: Cititor de bandă
+        desc: Ai deblocat <strong>cititirul de bandă</strong>! Iți permite să măsori
+            debitul unei benzi.<br><br>Și așteaptă pană deblochezi cablurile -
+            atungi devine foarte util!
+    reward_rotater_180:
+        title: Rotator (180 degrees)
+        desc: Tocmai ai deblocat un <strong>rotator</strong> de 180 de grade! - Îți
+            permite să rotești o formă cu 180 de grade (Surpriză! :D)
+    reward_display:
+        title: Display
+        desc: "Ai deblocat <strong>Display-ul</strong> - Conectează un semnal pe stratul
+            cabluri pentru a vizualiza!<br><br> PS: Ai observat că cititorul de
+            benzi are ca output ultimul item procesat? Încearcă să îl afișezi pe
+            ecan !"
+    reward_constant_signal:
+        title: Semnal Constant
+        desc: Ai deblocat <strong>semnalul constant</strong> pe stratul cabluri! Acesta
+            e util când e conectat la <strong>filtre de iteme</strong> spre
+            exemplu.<br><br> Semnalul constant poate emite o
+            <strong>formă</strong>, <strong>culoare</strong> sau <strong>valoare
+            binară</strong> (1/0).
+    reward_logic_gates:
+        title: Porți logice
+        desc: Ai deblocat <strong>porțile logice</strong>! Nu e necesar să fi încântat
+            despre asta, dar e super tare!<br><br> Ce aceste porți logice poți
+            procesa operațiile AND, OR, XOR și NOT.<br><br> Ca bonus ți-am dat
+            deblocat și <strong>tranzistorul</strong>!
+    reward_virtual_processing:
+        title: Procesare Virtuală
+        desc: Tocmai ți-am dat o grămadă de construcții care îți permit să
+            <strong>simulezi procesarea formelor</strong>!<br><br> Acum poți
+            simula un tăietor, un rotitor, o mașină de presat și altele pe
+            stratul cabluri! Cu asta ai acum 3 opțiuni de a continua
+            jocul:<br><br> - Construiește o <strong>mașină automată</strong>
+            care să creeze orice formă posibilă cerută de HUB,(Recomand să
+            încerci!).<br><br> - Construiește ceva mișto cu cabluri.<br><br> -
+            Continuă să joci normal. <br><br> Orice ai alege, amintește-ți să te
+            distrezi!
+    reward_wires_painter_and_levers:
+        title: Cabluri și vopsitor cvadruplu
+        desc: "Tocmai ai deblocat <strong>Stratul Cabluri</strong>: Acesta este un strat
+            separat de stratul normal și introduce o tonă de noi
+            mechanici!<br><br> Pentru început am deblocat <strong>Vopsitorul
+            Cvadruplu</strong> - Conectează sloturile pe care le dorești
+            colorate în stratul cabluri!<br><br> Pentru a schimba straturile,
+            apasă butonul <strong>E</strong>. <br><br> PS: <strong>Activează
+            indiciile</strong> în setări pentru a activa tutorialul!"
+    reward_filter:
+        title: Filtru de iteme
+        desc: Ai deblocat <strong>Filtrul de iteme</strong>! El va direcționa itemele
+            fie catre output-ul de sus, fie către cel din dreapta în funcție
+            daca acesta se potrivește cu semnalul de pe stratul cabluri sau
+            nu.<br><br> De asemenea îi poți da un semnal de tip valoare binară
+            (1/0) pentru a îl activa sau dezactiva complet.
+    reward_demo_end:
+        title: Sfârșitul Versiunii Demo
+        desc: Ai ajuns la sfârșitul versiunii demo!
+settings:
+    title: Setări
+    categories:
+        general: General
+        userInterface: Interfață Utilizator
+        advanced: Avansat
+        performance: Performanță
+    versionBadges:
+        dev: Dezvoltare
+        staging: Beta
+        prod: Producere
+    buildDate: Construit <at-date>
+    labels:
+        uiScale:
+            title: Scala de interfață
+            description: Schimbă dimensiunea interfeței utilizatorului. Această interfață
+                tot se va scala bazată pe rezoluția dispozitivului dumneavoastră
+                dar această setare controlează cantitatea scalări.
+            scales:
+                super_small: Foarte mică
+                small: Mică
+                regular: Normală
+                large: Mare
+                huge: Enormă
+        scrollWheelSensitivity:
+            title: Sensitivitatea Zoom-ului
+            description: Schimbă cât de sensitiv zoom-ul este (Fie roata mouse-ului ori
+                trackpadului).
+            sensitivity:
+                super_slow: Foarte încet
+                slow: Încet
+                regular: Regulat
+                fast: Rapid
+                super_fast: Foarte rapid
+        language:
+            title: Limba
+            description: Schimbă limba. Toate traducerile sunt contribuite de utilizatori și
+                pot fi incomplete!
+        fullscreen:
+            title: Fullscreen
+            description: Este recomandat ca jocul să fie jucat în fullscreen pentru a avea
+                cea mai bună experiență. Doar disponibil în versiunea
+                standalone.
+        soundsMuted:
+            title: Oprește sunetele
+            description: Dacă este activat, oprește toate efectele sonore.
+        musicMuted:
+            title: Oprește muzica
+            description: Dacă este activat, oprește toată muzica.
+        theme:
+            title: Tema jocului
+            description: Alege tema jocului (luminoasă / întunecată).
+            themes:
+                dark: Întunecată
+                light: Luminoasă
+        refreshRate:
+            title: Rata de reîmprospătare
+            description: Dacă ai un monitor cu 144hz, schimbă rata de reîmprospătare aici și
+                focul va avea o rată de reîmprospătare mai mare. Acesta poate de
+                fapt scădea FPS-urile dacă calculatorul dumneavoastră este prea
+                lent.
+        alwaysMultiplace:
+            title: Plasare multiplă
+            description: Dacă este activat, toate construcțiile vor sta selectate până le
+                anulezi. Asta este echivalent cu ținutul SHIFT-ului apăsat
+                permanent.
+        offerHints:
+            title: Indicii & Tutoriale
+            description: Dacă este activat, oferă indicii și tutoriale în timpul jocului. De
+                asemenea ascunde anumite elemente ale interfeței utilizatorului
+                pâna la anumite nivele pentru a ușura înțelegerea jocului.
+        movementSpeed:
+            title: Viteza de deplasare
+            description: Modifică viteza cât de rapid se mișcă vederea folosind tastatura.
+            speeds:
+                super_slow: Foarte încet
+                slow: Încet
+                regular: Normal
+                fast: Rapid
+                super_fast: Foarte Rapid
+                extremely_fast: Extrem de Rapid
+        enableTunnelSmartplace:
+            title: Tunele Inteligente
+            description: Când este activat, plasarea tunelelor va elimina automat benzile
+                nefolositoare. Aceasta permite de asemenea tragerea tunelelor și
+                tunelele în exces vor fi șterse.
+        vignette:
+            title: Vinietă
+            description: Dacă este activată, înnegrește colțurile ecranului și face textul
+                mai ușor de citit.
+        autosaveInterval:
+            title: Intervalul de salvare automată
+            description: Controlează cât de des jocul se salvează automat. Poți de asemenea
+                să o dezactivezi total aici.
+            intervals:
+                one_minute: 1 Minut
+                two_minutes: 2 Minute
+                five_minutes: 5 Minute
+                ten_minutes: 10 Minute
+                twenty_minutes: 20 Minute
+                disabled: Dezactivat
+        compactBuildingInfo:
+            title: Informații ale construcțiilor compacte
+            description: Scurtează casetele cu informații ale construcțiilor afișând doar
+                rația. Altfel se va afișa descrierea și imaginea.
+        disableCutDeleteWarnings:
+            title: Dezactivre Avertizări Tăiere/Ștergere
+            description: Dezactivează dialogul de avertizare atunci când sunt șterse mai
+                mult de 100 de entități.
+        enableColorBlindHelper:
+            title: Modul pentru daltoniști
+            description: Activează diferite unelte care îți permit să joci jocul chiar dacă
+                ești daltonist.
+        rotationByBuilding:
+            title: Rotație după tipul clădirii
+            description: Fiecare tip de clădire ține minte ultima rotație pe care i-ai
+                setat-o individual. Aceasta poate fi mai confortabil dacă
+                schimbi frecvent între tipurile clădirilor.
+        soundVolume:
+            title: Volum sunet
+            description: Setează volumul pentru efecte sonore
+        musicVolume:
+            title: Volum muzică
+            description: Setează volumul pentru muzică
+        lowQualityMapResources:
+            title: Randarea la calitate slabă ale resurselor hărții
+            description: Simplifică randarea resurselor pe hartă când marești/micșorezi
+                pentru a îmbunătăți performanța. În plus arată mai simplu, deci
+                merită să încerci!
+        disableTileGrid:
+            title: Dezactivează grila
+            description: Dezactivarea grilei poate ajuta cu performanța. De asemenea face
+                jocul să arate mai curat.
+        clearCursorOnDeleteWhilePlacing:
+            title: Curăță cursorul la apăsarea click dreapta
+            description: Activat în mod implicit, curăță cursorul când apeși click dreapta
+                în timp ce ai o clădire selectată pentru plasare. Dacă e
+                dezactivat, poți șterge direct construcția apasând click
+                dreapta.
+        lowQualityTextures:
+            title: Texturi la calitate slabă(Urât)
+            description: Folosește texturi la calitate slabă pentru a salva performanța. Va
+                face jocul să arate mai urât.
+        displayChunkBorders:
+            title: Afișează marginea chuck-urilor
+            description: Jocul e împărțit in chuck-uri de 16x16 pătrate, daca această setare
+                e activată atunci marginile chunk-urilor sunt vizibile.
+        pickMinerOnPatch:
+            title: Selectează extractorul
+            description: Activată în mod implicit, selectează extractorul daca folosești
+                pepita deasupra unui petic de resurse.
+        simplifiedBelts:
+            title: Benzi simplificate (Urât)
+            description: Nu randează itemele de pe bandă decât când ești deasupra pentru a
+                salva performanță. Nu recomand să joci cu această setare decât
+                dacă este absolut necesară mai multă performanță.
+        enableMousePan:
+            title: Activeză mișcare mouse
+            description: Permite harții să se deplaseze mutând cursorul la marginea
+                ecranului. Viteza depinde de setarea Viteză de Deplasare.
+        zoomToCursor:
+            title: Zoom către Cursor
+            description: Dacă e activat zoom-ul se va aplica deasupra poziției mouseului,
+                altfel în mijlocul ecranului.
+        mapResourcesScale:
+            title: Mărime resurse hartă
+            description: Controlează dimensiunea formelor pe hartă (la micșorare)
+        shapeTooltipAlwaysOn:
+            title: Sfaturi Formă - Afișează mereu
+            description: Dacă se va afișa permanent sfalturi despre formă deasupra
+                construcțiilor, in schimbul afișării doar la apăsarea butonului
+                ALT.
+    rangeSliderPercentage: <amount> %
+    tickrateHz: <amount> Hz
+    newBadge: New!
+keybindings:
+    title: Tastele setate
+    hint: "Indiciu: Asigură-te că foloseșto CTRL, SHIFT și ALT! Ele activează
+        diferite opțiuni de plasare."
+    resetKeybindings: Resetează controale tastatură
+    categoryLabels:
+        general: Aplicație
+        ingame: Joc
+        navigation: Navigație
+        placement: Plasare
+        massSelect: Selectare în masă
+        buildings: Comenzi rapide pentru clădiri
+        placementModifiers: Modificatori de plasare
+        mods: Provided by Mods
+    mappings:
+        confirm: Confirm
+        back: Înapoi
+        mapMoveUp: Mută în sus
+        mapMoveRight: Mută în dreapta
+        mapMoveDown: Mută în joc
+        mapMoveLeft: Mută în stânga
+        centerMap: Centrează harta
+        mapZoomIn: Mărește imaginea
+        mapZoomOut: Micșorează imaginea
+        createMarker: Creează waypoint
+        menuOpenShop: Upgrade-uri
+        menuOpenStats: Statistici
+        toggleHud: Comută interfața
+        toggleFPSInfo: Comută FPS și informații depănare
+        belt: Benzi Rulante
+        underground_belt: Tunel
+        miner: Extractor
+        cutter: Tăietor
+        rotater: Rotitor
+        stacker: Mașină de presat
+        mixer: Mixer de culori
+        painter: Mașină de pictat
+        trash: Gunoi
+        rotateWhilePlacing: Rotește
+        rotateInverseModifier: "Modifier: Rotește CCW în schimb"
+        cycleBuildingVariants: Ciclează Variante
+        confirmMassDelete: Confirmă ștergere în masă
+        cycleBuildings: Ciclează clădiri
+        massSelectStart: Ține apăsat și trage pentru a începe
+        massSelectSelectMultiple: Selectează zone multiple
+        massSelectCopy: Copiază zona
+        placementDisableAutoOrientation: Dezactivați orientarea automată
+        placeMultiple: Rămâneți în modul de plasare
+        placeInverse: Inversați orientarea automată a benzii
+        pasteLastBlueprint: Lipește ultimul plan
+        massSelectCut: Taie zona
+        exportScreenshot: Exportați întreaga bază ca imagine
+        mapMoveFaster: Deplasează-te mai repede
+        lockBeltDirection: Activează planificator de benzi
+        switchDirectionLockSide: "Planificator: Schimbă direcția"
+        pipette: Pipetă
+        menuClose: Închidere meniu
+        switchLayers: Schimbare straturi
+        wire: Cabluri Energie
+        balancer: Balansor
+        storage: Stocare
+        constant_signal: Semnal Constant
+        logic_gate: Poartă logică
+        lever: Întrerupător (normal)
+        filter: Filtru
+        wire_tunnel: Intersecție cabluri
+        display: Display
+        reader: Cititor benzi
+        virtual_processor: Tăietor virtual
+        transistor: Tranzistor
+        analyzer: Analizator de formă
+        comparator: Comparator
+        item_producer: Producător iteme (Sandbox)
+        copyWireValue: "Cabluri: copiază valoarea de sub cursor"
+        rotateToUp: "Rotește: Direcționează în sus"
+        rotateToDown: "Rotește: Direcționează în jos"
+        rotateToRight: "Rotește: Direcționează în dreapta"
+        rotateToLeft: "Rotește: Direcționează în stânga"
+        constant_producer: Producător Constant
+        goal_acceptor: Acceptor de obiectiv
+        block: Bloc
+        massSelectClear: Ștergere benzi
+        showShapeTooltip: Afișează sfat cu forma de output
+about:
+    title: Despre acest joc
+    body: >-
+        Acest joc este open source și dezvoltat de <a
+        href="https://github.com/tobspr" target="_blank">Tobias Springer</a>
+        (acesta sunt eu).<br><br>
+
+        Dacă vrei să contribui, verifică <a href="<githublink>" target="_blank">shapez.io pe github</a>.<br><br>
+
+        Acest joc nu ar fi fost posibil fără minunata comunitate de pe Discord pe lângă jocurile mele - Chiar ar trebui să te alături <a href="<discordlink>" target="_blank">server-ului de Discord</a>!<br><br>
+
+        Coloana sonoră a fost făcută de <a href="https://soundcloud.com/pettersumelius" target="_blank">Peppsen</a> - Este uimitor.<br><br>
+
+        În final, mii de mulțumiri prietenului meu <a href="https://github.com/niklas-dahl" target="_blank">Niklas</a> - Fără sesiunile noastre de factorio acest joc nu ar fi existat niciodată.
+changelog:
+    title: Lista de schimbări
+demo:
+    features:
+        restoringGames: Restabilirea savegame-urilor
+        importingGames: Importarea savegame-urilor
+        oneGameLimit: Limitat la un savegame
+        customizeKeybindings: Taste customizabile
+        exportingBase: Exportul întregii baze ca imagine
+    settingNotAvailable: Nu este valabil în demo.
+tips:
+    - HUB-ul acceptă orice fel de input, nu doar forma cerută curent!
+    - Asigură-te ca fabricile sunt modulare - o să merite!
+    - Nu construi prea aproape de HUB, altfel va fi un haos!
+    - Daca stivuirea nu merge, încearcă să interschimbi input-urile.
+    - Poși modifica sirecția planuitorului de benzi apăsând <b>R</b>.
+    - Apăsarea <b>CTRL</b> apermite tragerea benzilor fără orientare automată.
+    - Rațiile stau la fel, cât timp upgrade-urile sunt de același nivel.
+    - Executarea în serie e mai eficientă decât cea în paralel.
+    - Vei debloca alte variante ale construcțiilor mai târziu!
+    - Poți folosi <b>T</b> pentru a schimba prin diferitele variante.
+    - Simetria e cheia!
+    - Poți folosi tipuri diferite de tunele alternativ.
+    - Încearcă să construiești fabrici compacte - o să merite mai târziu!
+    - Pictorul are o variantă în oglindă pe care o puteți selecta cu <b>T</b>
+    - Având rapoartele de construcție corecte va maximiza eficiența.
+    - La nivelul maxim, 5 extractoare vor umple o singură bandă.
+    - Nu uita de tunele!
+    - Nu e nevoie să împărțiți itemele în mod egal pentru o eficiență deplină.
+    - Apăsând <b>SHIFT</b> va activa planificatorul de benzi, permițându-vă să
+      plasați linii lungi de benzi cu ușurință.
+    - Tăietoarele taie întotdeauna vertical, indiferent de orientarea lor.
+    - Pentru a obține alb amestecați toate cele trei culori.
+    - Buffer-ul de stocare prioritizează primul output.
+    - Investiți timp pentru a construi modele repetabile - merită!
+    - Apăsând <b>CTRL</b> permite amplasarea mai multor clădiri.
+    - Poți ține apăsat <b>ALT</b> pentru a inversa direcția benzilor plasate.
+    - Eficiența e cheia!
+    - Patch-urile de formă care sunt mai departe de hub sunt mai complexe.
+    - Mașinile au o viteză limitată, împărțiți-le pentru o eficiență maximă.
+    - Folosiți balansoare pentru a vă maximiza eficiența.
+    - Organizarea este importantă. Încercați să nu intersectați benzile prea
+      mult.
+    - Planificați din timp, sau va fi un haos uriaș!
+    - Nu vă ștergeți vechile fabrici! Veți avea nevoie de ele pentru a debloca
+      upgrade-urile.
+    - Încercați să bateți singur nivelul 20 înainte de a căuta ajutor!
+    - Nu complica lucrurile, încearcă să rămâi simplu și vei merge departe.
+    - Poate fi necesar să reutilizați fabricile mai târziu în joc.
+      Planificați-vă fabricile pentru a fi reutilizabile.
+    - Uneori, puteți găsi o formă necesară pe hartă fără a o crea cu stivuitoare.
+    - Morile de vânt complete nu pot niciodată să apară în mod natural.
+    - Colorează-ți formele înainte de tăiere pentru o eficiență maximă.
+    - Cu module, spațiul este doar o percepție; o preocupare pentru oamenii
+      muritori.
+    - Realizați o fabrică separată de planuri. Sunt importante pentru module.
+    - Aruncați o privire mai atentă asupra mixerului de culori, iar întrebările
+      tale vor primi răspuns.
+    - Utilizați <b> CTRL </b> și faceți clic pentru a selecta o zonă.
+    - Construirea prea aproape de hub poate împiedica proiectele ulterioare.
+    - Pictograma de fixare de lângă fiecare formă din lista de upgrade o fixează
+      pe ecran.
+    - Amestecați toate culorile primare împreună pentru a face alb!
+    - Aveți o hartă infinită, nu vă strângeți fabrica, extindeți-vă!
+    - Încercați și Factorio! Este jocul meu preferat.
+    - Tăietoarele cvadruple tăie în sensul acelor de ceasornic începând din
+      dreapta sus!
+    - Puteți descărca salvările din meniul principal!
+    - Acest joc are o mulțime de scurtături de taste utile! Asigurați-vă că
+      verificați pagina de setări.
+    - Acest joc are o mulțime de setări, asigurați-vă că le verificați!
+    - Marcatorul de la HUB are o busolă mică pentru a indica direcția sa!
+    - Pentru a curăța centurile, tăiați zona și apoi lipiți-o în aceeași locație.
+    - Apăsați F4 pentru a afișa FPS și Tick Rate-ul.
+    - Apăsați de două ori F4 pentru a afișa căsuța mouse-ului și a camerei.
+    - Puteți face clic pe o formă fixată din partea stângă pentru a o anula.
+puzzleMenu:
+    play: Joacă
+    edit: Editează
+    title: Titlu
+    createPuzzle: Crează puzzle
+    loadPuzzle: Încarcă
+    reviewPuzzle: Revizuie și publică
+    validatingPuzzle: Validează Puzzle
+    submittingPuzzle: Trimite Puzzle
+    noPuzzles: Nu există momentan niciun puzzle în această secțiune.
+    categories:
+        levels: Niveluri
+        new: Nou
+        top-rated: Cele mai apreciate
+        mine: Puzzle-urile mele
+        easy: Ușor
+        hard: Greu
+        completed: Completat
+        medium: Medium
+        official: Official
+        trending: În trending azi
+        trending-weekly: În treding săptămânal
+        categories: Categorii
+        difficulties: După Dificultate
+        account: Puzzle-urile mele
+        search: Căutare
+    validation:
+        title: Puzzle Invalid
+        noProducers: Te rugăm plasează un producător constant!
+        noGoalAcceptors: Te rugăm plasează un acceptor de obiective!
+        goalAcceptorNoItem: Unul sau mai multe acceptoare de obiective nu au stabilit
+            niciun item. Livrează o formă la ele pentru a continua.
+        goalAcceptorRateNotMet: Unul sau mai multe acceptoare de obiective nu primesc
+            suficiente iteme. Asigură-te că indicatoarele sunt verzi pentru
+            toate acceptoarele.
+        buildingOutOfBounds: Una sau mai multe construcții sunt în afara ariei de
+            construcție. Mărește zona sau șterge-le.
+        autoComplete: Puzzle-ul tău se completeaza automat! Asigură-te că producătoarele
+            constante nu livrează direct către acceptoarele de obiective.
+    difficulties:
+        easy: Ușor
+        medium: Medium
+        hard: Greu
+        unknown: Neevaluat
+    dlcHint: Ai cumpărat deja DLC-ul? Asigură-te ca e activat pe shapez.io în
+        biblioteca ta, selectând Properietăți > DLC-uri.
+    search:
+        action: Caută
+        placeholder: Introdu Puzzle sau autor
+        includeCompleted: Include completate
+        difficulties:
+            easy: Ușor
+            medium: Medium
+            hard: Greu
+            any: Any Difficulty
+        durations:
+            any: Orice durată
+            short: Scurt (< 2 minute)
+            medium: Normal
+            long: Lung (> 10 minute)
+backendErrors:
+    ratelimit: Efectuați acțiuni prea repede. Vă rugăm să așteptați puțin.
+    invalid-api-key: Comunicarea cu serverul a eșuat. Vă rugăm actualizați/reporniți
+        jocul (Invalid Api Key).
+    unauthorized: Comunicarea cu serverul a eșuat. Vă rugăm actualizați/reporniți
+        jocul (Unauthorized).
+    bad-token: Comunicarea cu serverul a eșuat. Vă rugăm actualizați/reporniți jocul
+        (Bad Token).
+    bad-id: Identificator Puzzle Invalid
+    not-found: Puzzle-ul căutat nu poate fi găsit
+    bad-category: Categoria căutată nu poate fi găsită
+    bad-short-key: Cheia scurtă furnizată este invalidă
+    profane-title: Titlul puzzle-ului contine cuvinte vulgare.
+    bad-title-too-many-spaces: Titlul puzzle-ului prea scurt.
+    bad-shape-key-in-emitter: Un producător constant are un item invalid.
+    bad-shape-key-in-goal: Un acceptor de obiectiv are un item invalid.
+    no-emitters: Puzzle-ul tău nu conține niciun producător constant
+    no-goals: Puzzle-ul tău nu conține niciun acceptor de obiectiv.
+    short-key-already-taken: Această cheie scurtă e deja folosită. Alege alta.
+    can-not-report-your-own-puzzle: Nu îți poți raporta propriul puzzle.
+    bad-payload: Cererea conține date invalide.
+    bad-building-placement: Puzzle-ul conține construcții așezate in mod nepermis.
+    timeout: Cererea a expirat.
+    too-many-likes-already: Acest puzzle are deja prea multe aprecieri. Dacă tot îl
+        dorești înlăturat, te rog contactează-ne la support@shapez.io!
+    no-permission: Nu ai permisiunea de a face acest lucru.
+mods:
+    title: Mods
+    author: Author
+    version: Version
+    modWebsite: Website
+    openFolder: Open Mods Folder
+    folderOnlyStandalone: Opening the mod folder is only possible when running the standalone.
+    browseMods: Browse Mods
+    modsInfo: To install and manage mods, copy them to the mods folder within the
+        game directory. You can also use the 'Open Mods Folder' button on the
+        top right.
+    noModSupport: You need the standalone version on Steam to install mods.
+    togglingComingSoon:
+        title: Coming Soon
+        description: Enabling or disabling mods is currently only possible by copying
+            the mod file from or to the mods/ folder. However, being able to
+            toggle them here is planned for a future update!
+    browserNoSupport: Due to browser restrictions it is currently only possible to
+        install mods in the Steam version - Sorry!

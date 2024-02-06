@@ -54,15 +54,15 @@ nav{
     text-align: center;
     margin-top: 15%;
 }
-.gameTable tr td figure img, .gameTable tr td figcaption{
+.gameTable tr td figure img, .gameTable tr td figcaption, .gameTable tr td a{
     width: 200px;
     color: white;
     display: block;
     text-align: center;
     border-radius: 35px;
+    text-decoration: none;
 }
 table{
-    width: 100%; 
     table-layout:fixed;
 }
 h1 , h3{

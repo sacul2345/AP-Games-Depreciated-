@@ -1,0 +1,185 @@
+.ingame_buildingsToolbar {
+    position: absolute;
+    @include S(bottom, 10px);
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    @include S(grid-gap, 4px);
+
+    background: transparent;
+    transition: transform 120ms ease-in-out;
+    will-change: transform;
+
+    &:not(.visible) {
+        transform: translateX(-50%) translateY(#{D(100px)});
+    }
+
+    .buildings {
+        display: grid;
+        grid-auto-flow: column;
+        justify-items: center;
+        align-self: center;
+        grid-gap: D(2px);
+        grid-row: 2 / 3;
+
+        @include S(border-radius, $globalBorderRadius);
+        @include S(padding, 2px);
+        background-color: rgba($ingameHudBg, 0.07);
+
+        @include DarkThemeOverride {
+            background-color: rgba(darken($darkModeGameBackground, 15), 0.95);
+        }
+
+        &.secondary {
+            grid-row: 1 / 2;
+
+            .building {
+                @include S(width, 30px);
+                @include S(height, 30px);
+                background-size: 45%;
+
+                &:not(.unlocked) {
+                    &::before {
+                        background-size: #{D(13px)};
+                    }
+                }
+            }
+        }
+
+        .building {
+            display: flex;
+            @include S(width, 40px);
+            position: relative;
+            @include S(height, 40px);
+
+            @at-root html[data-tutorial-step="1_1_extractor"] &[data-id="miner"]:not(.selected),
+                html[data-tutorial-step="1_2_conveyor"] &[data-id="belt"]:not(.selected),
+                html[data-tutorial-step="2_1_place_cutter"] &[data-id="cutter"]:not(.selected),
+                html[data-tutorial-step="2_2_place_trash"] &[data-id="trash"]:not(.selected) {
+                &::before {
+                    content: "";
+
+                    & {
+                        /* load-async */
+                        background: uiResource("icons/tutorial_arrow.png") center center / contain no-repeat;
+                    }
+
+                    @include S(width, 25px);
+                    @include S(height, 25px);
+                    position: absolute;
+                    left: 50%;
+                    bottom: 100%;
+                    transform: translateX(-50%);
+                    @include InlineAnimation(1s ease-in-out infinite) {
+                        50% {
+                            transform: translateX(-50%) translateY(20%);
+                        }
+                    }
+                }
+                @include S(border-radius, $globalBorderRadius);
+                box-shadow: 0 0 D(10px) D(5px) rgba(74, 237, 134, 0.5) !important;
+                background: rgba(74, 237, 134, 0.5) !important;
+            }
+
+            .icon {
+                color: $accentColorDark;
+                display: flex;
+                flex-direction: column-reverse;
+                position: relative;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                margin: 0;
+
+                background: center center / 70% no-repeat;
+            }
+
+            &:not(.unlocked) {
+                @include S(width, 25px);
+                .icon {
+                    opacity: 0.15;
+                }
+                &.editor {
+                    .icon {
+                        pointer-events: all;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: rgba(22, 30, 68, 0.1);
+                        }
+                    }
+                }
+                &:not(.editor) {
+                    .icon {
+                        background-image: uiResource("locked_building.png") !important;
+                    }
+                }
+            }
+
+            &.unlocked {
+                .icon {
+                    @include S(border-radius, $globalBorderRadius * 0.9);
+
+                    pointer-events: all;
+                    transition: all 0.12s ease-in-out;
+                    transition-property: background-color, transform;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: rgba(30, 40, 90, 0.1);
+
+                        @include DarkThemeOverride {
+                            background-color: rgba(255, 255, 255, 0.07);
+                        }
+                    }
+
+                    &.pressed {
+                        transform: scale(0.9) !important;
+                    }
+                }
+                &.selected {
+                    .icon {
+                        background-color: rgba(lighten($colorBlueBright, 9), 0.4);
+                    }
+                    // transform: scale(1.05);
+                    // @include S(border-radius, $globalBorderRadius);
+
+                    .keybinding {
+                        color: #111;
+                    }
+                }
+
+                .puzzle-lock {
+                    & {
+                        /* @load-async */
+                        background: uiResource("locked_building.png") center center / 90% no-repeat;
+                    }
+
+                    display: grid;
+                    grid-auto-flow: column;
+
+                    position: absolute;
+                    @include S(top, -15px);
+                    left: 50%;
+                    transform: translateX(-50%) !important;
+                    transition: all 0.12s ease-in-out;
+                    transition-property: opacity, transform;
+
+                    cursor: pointer;
+                    pointer-events: all;
+
+                    @include S(width, 12px);
+                    @include S(height, 12px);
+
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+    }
+}

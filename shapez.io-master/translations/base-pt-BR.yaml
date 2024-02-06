@@ -1,0 +1,1392 @@
+steamPage:
+    shortText: Shapez.io é um jogo sobre construir fábricas, automatizando a criação
+        e combinação de formas cada vez mais complexas num mapa infinito.
+    discordLinkShort: Discord Oficial
+    intro: >-
+        Shapez.io é um jogo relaxante no qual você deve construir fábricas para
+        produzir formas geométricas automaticamente.
+
+        Conforme os níveis aumentam, as formas se tornam mais complexas, e você terá que explorar o mapa infinito.
+
+        Como se já não bastasse, sua produção deve crescer exponencialmente para satisfazer a demanda - a única solução é expandir!
+
+        Enquanto no começo você apenas processa as formas, mais a frente você deve pintá-las - para isso você deve extrair e misturar cores!
+
+        Comprar o jogo na Steam te garante acesso à versão completa, mas você pode jogar a versão demo em shapez.io primeiro e decidir depois!
+    what_others_say: O que as pessoas dizem sobre o shapez.io
+    nothernlion_comment: Este jogo é ótimo - estou me divertindo muito jogando e o
+        tempo passou voando.
+    notch_comment: Droga. Eu realmente deveria dormir, mas eu acho que acabei de
+        descobrir como fazer um computador no shapez.io
+    steam_review_comment: Este jogo roubou minha vida e eu não a quero de volta.
+        Jogo de fábrica muito descontraído que não me deixa parar de fazer
+        linhas mais eficientes.
+global:
+    loading: Carregando
+    error: Erro
+    thousandsDivider: .
+    decimalSeparator: ","
+    suffix:
+        thousands: K
+        millions: M
+        billions: B
+        trillions: T
+    infinite: inf
+    time:
+        oneSecondAgo: um segundo atrás
+        xSecondsAgo: <x> segundos atrás
+        oneMinuteAgo: um minuto atrás
+        xMinutesAgo: <x> minutos atrás
+        oneHourAgo: uma hora atrás
+        xHoursAgo: <x> horas atrás
+        oneDayAgo: um dia atrás
+        xDaysAgo: <x> dias atrás
+        secondsShort: <seconds>s
+        minutesAndSecondsShort: <minutes>m <seconds>s
+        hoursAndMinutesShort: <hours>h <minutes>m
+        xMinutes: <x> minutos
+    keys:
+        tab: TAB
+        control: CTRL
+        alt: ALT
+        escape: ESC
+        shift: Shift
+        space: Espaço
+    loggingIn: Entrando
+    loadingResources: Downloading additional resources (<percentage> %)
+    discount: -<percentage>%
+    discountSummerSale: SPECIAL PROMOTION! Offer ends 7 July
+demoBanners:
+    title: Versão Demo
+    intro: |-
+        Obtenha o jogo completo <forte>suave</forte> para desbloquear:<ul>
+            <li>Todos os 26 níveis + infinite Freeplay</li>
+            <li>22 novas construções</li>
+            <li>Suporte Mod</li>
+            <li>Realizações</li>
+            <li>Dark Mod</li>
+            <li>...e muito mais!</li>
+        </ul>
+    playtimeDisclaimer: The full version contains more than <strong>20 hours of content</strong>.
+    playerCount: <playerCount> Jogadores como você está jogando shapez on Steam
+        agora mesmo.
+    untilEndOfDemo: Até o final da demo
+    playtimeDisclaimerDownload: Você pode continuar seu jogo salvo na versão
+        completa! Clique <strong>aqui</strong> para baixar seu jogo salvo.
+    titleV2: "Reproduzir a versão completa agora para:"
+mainMenu:
+    play: Jogar
+    continue: Continuar
+    newGame: Novo jogo
+    changelog: Changelog
+    subreddit: Reddit
+    importSavegame: Importar save
+    openSourceHint: Esse jogo tem código aberto!
+    discordLink: Discord oficial
+    helpTranslate: Ajude a traduzir!
+    madeBy: Feito por <author-link>
+    browserWarning: O jogo pode ficar lento em seu navegador! Compre a versão
+        completa ou baixe o Chrome para obter uma experiência completa.
+    savegameLevel: Nível <x>
+    savegameLevelUnknown: Nível desconhecido
+    savegameUnnamed: Sem nome
+    puzzleMode: Modo Puzzle
+    back: Voltar
+    puzzleDlcText: Você gosta de compactar e otimizar fábricas? Adquira a Puzzle DLC
+        já disponível na Steam para se divertir ainda mais!
+    puzzleDlcWishlist: Adicione já a sua lista de desejos!
+    puzzleDlcViewNow: View Dlc
+    mods:
+        title: Active Mods
+        warningPuzzleDLC: Playing the Puzzle DLC is not possible with mods. Please
+            disable all mods to play the DLC.
+    playingFullVersion: You are now playing the full version!
+    logout: Logout
+    noActiveSavegames: No active savegames found - Click play to start a new game!
+    playFullVersionV2: Bough shapez on Steam? Play the full version in your Browser!
+    playFullVersionStandalone: You can now also play the full version in your Browser!
+dialogs:
+    buttons:
+        ok: OK
+        delete: Deletar
+        cancel: Cancelar
+        later: Voltar
+        restart: Reiniciar
+        reset: Resetar
+        getStandalone: Obter versão completa
+        deleteGame: Sei o que estou fazendo
+        viewUpdate: Atualizações
+        showUpgrades: Melhorias
+        showKeybindings: Controles
+        retry: Tentar novamente
+        continue: Continue
+        playOffline: Jogar Offline
+    importSavegameError:
+        title: Erro de importação
+        text: "Houve uma falha ao importar seu jogo salvo:"
+    importSavegameSuccess:
+        title: Jogo salvo importado
+        text: Seu jogo salvo foi importado com sucesso.
+    gameLoadFailure:
+        title: Jogo salvo corrompido
+        text: "Houve uma falha ao carregar seu jogo salvo:"
+    confirmSavegameDelete:
+        title: Confirmar exclusão
+        text: Tem certeza que deseja deletar o jogo a seguir?<br><br> '<savegameName>'
+            no nível <savegameLevel><br><br> Isso não pode ser revertido!
+    savegameDeletionError:
+        title: Falha ao deletar
+        text: "Houve uma falha ao deletar seu jogo salvo:"
+    restartRequired:
+        title: Reinicialização necessária
+        text: Você precisa reiniciar o jogo para aplicar as mudanças.
+    editKeybinding:
+        title: Alterar tecla
+        desc: Pressione a tecla que deseja vincular, ou ESC para cancelar.
+    resetKeybindingsConfirmation:
+        title: Resetar controles
+        desc: Essa opção deixa os controles nas definições padrão.
+    keybindingsResetOk:
+        title: Controles resetados
+        desc: Os controles foram resetados para as definições padrão.
+    featureRestriction:
+        title: Versão Demo
+        desc: Você tentou acessar um recurso (<feature>) que não está disponível na
+            demo. Considere obter a versão completa para a proceder!
+    oneSavegameLimit:
+        title: Limite de jogos salvos
+        desc: Você pode ter apenas um jogo salvo por vez na versão demo. Remova o
+            existente ou obtenha a versão completa!
+    updateSummary:
+        title: Nova Atualização!
+        desc: "Aqui estão as alterações desde a última vez que você jogou:"
+    upgradesIntroduction:
+        title: Desbloquear melhorias
+        desc: Todas as formas que você produz podem ser usadas para desbloquear
+            melhorias - <strong>Não destrua suas antigas fábricas!!</strong> O
+            guia de melhorias pode ser encontrado no canto superior direito da
+            tela.
+    massDeleteConfirm:
+        title: Deletar?
+        desc: Você está deletando vários objetos (<count> para ser exato)! Você quer
+            continuar?
+    massCutConfirm:
+        title: Confirmar corte?
+        desc: Você está cortando vários objetos (<count> para ser exato)! Você quer
+            continuar?
+    massCutInsufficientConfirm:
+        title: Confirmar Corte?
+        desc: Você não conseguirá colar essa área! Tem certeza que quer cortá-la??
+    blueprintsNotUnlocked:
+        title: Não desbloqueado ainda
+        desc: Os projetos ainda não foram desbloqueados! Complete mais níveis para
+            desbloqueá-los.
+    keybindingsIntroduction:
+        title: Teclas úteis
+        desc: "Este jogo possui muitas combinações de teclas que facilitam a construção
+            de grandes fábricas Aqui estão algumas, certifique-se de
+            <strong>verificar as combinações de teclas</strong>!<br><br> <code
+            class='keybinding'>CTRL</code> + Arrastar: Seleciona área para
+            copiar/deletar.<br> <code class='keybinding'>SHIFT</code>: Mantenha
+            pressionado para colocar várias construções.<br> <code
+            class='keybinding'>ALT</code>: Inverte as posições.<br>"
+    createMarker:
+        title: Nova Marcação
+        titleEdit: Editar Marcador
+        desc: Dê um nome significativo, você também pode incluir um <strong>código
+            </strong> de uma forma (Você pode gerá-lo <link>aqui</link>)
+    markerDemoLimit:
+        desc: Você só pode criar dois marcadores na versão demo. Adquira a versão
+            completa para marcadores ilimitados!
+    exportScreenshotWarning:
+        title: Exportar captura de tela
+        desc: Você está prestes a exportar uma captura de tela da sua base. Note que
+            isso pode ser bastante lento para uma base grande, e até mesmo pode
+            travar o jogo!
+    editSignal:
+        title: Defina o sinal
+        descItems: "Escolha um item pré-definido:"
+        descShortKey: ... ou insira o <strong>código</strong> de uma forma (Você  pode
+            gerá-lo <link>aqui</link>)
+    renameSavegame:
+        title: Renomear Save
+        desc: Você pode renomear seu save aqui.
+    tutorialVideoAvailable:
+        title: Tutorial disponível
+        desc: Existe um tutorial em vídeo para esse nível! Gostaria de assistí-lo?
+    tutorialVideoAvailableForeignLanguage:
+        title: Tutorial disponível
+        desc: Existe um tutorial em vídeo para esse nível, mas está disponível apenas em
+            Inglês. Gostaria de assistí-lo?
+    editConstantProducer:
+        title: Selecionar Item
+    puzzleLoadFailed:
+        title: O carregamento dos desafios falhou
+        desc: "Infelizmente os desafios não puderam ser carregados:"
+    submitPuzzle:
+        title: Enviar desafio
+        descName: "Dê um nome ao seu desafio:"
+        descIcon: "Por favor crie um código exclusivo, o qual será o ícone do seu
+            Desafio (Você pode gera-los <link>aqui</link>, ou escolha um dos
+            gerados aleatoriamente abaixo):"
+        placeholderName: Nome do desafio
+    puzzleResizeBadBuildings:
+        title: Mudar o tamanho não é possível
+        desc: Você não pode deixar a zona menor, porque algumas construções ficariam
+            fora dela.
+    puzzleLoadError:
+        title: Desafio Ruim
+        desc: "O desafio não pôde ser carregado:"
+    offlineMode:
+        title: Modo Offline
+        desc: Não conseguimos nos conectar aos servidores, então o jogo terá que ser
+            jogado no Modo Offline. Por favor garanta que você tenha uma conexão
+            ativa com a internet.
+    puzzleDownloadError:
+        title: Erro no download
+        desc: "Falha ao baixar o desafio:"
+    puzzleSubmitError:
+        title: Erro no envio
+        desc: "Erro ao enviar seu desafio:"
+    puzzleSubmitOk:
+        title: Desafio publicado
+        desc: Parabéns! Seu desafio foi publicado e pode ser acessado por outros
+            jogadores. Você pode acha-lo na categoria "Meus Desafios".
+    puzzleCreateOffline:
+        title: Modo Offline
+        desc: Como você está no Modo Offline, não será possível salvar e/ou publicar
+            seus desafios. Você deseja continuar?
+    puzzlePlayRegularRecommendation:
+        title: Recomendação
+        desc: Eu <strong>fortemente</strong> recomendo jogar o jogo normal até o nível
+            12 antes de se aventurar na Puzzle DLC, senão você poderá encontrar
+            mecânicas que ainda não foram introduzidas. Você ainda deseja
+            continuar?
+    puzzleShare:
+        title: Código copiado
+        desc: O código do desafio (<key>) foi copiado para sua área de transferência!
+            Ele pode ser inserido no menu de desafios para acessar o desafio.
+    puzzleReport:
+        title: Denunciar Desafio
+        options:
+            profane: Ofensivo
+            unsolvable: Impossível
+            trolling: Antijogo
+    puzzleReportComplete:
+        title: Obrigado pelo seu feedback!
+        desc: O desafio foi marcado.
+    puzzleReportError:
+        title: Falha ao denunciar
+        desc: "Sua denúncia não pôde ser processada:"
+    puzzleLoadShortKey:
+        title: Insira código
+        desc: Insira o código do desafio para carrega-lo.
+    puzzleDelete:
+        title: Delete Puzzle?
+        desc: Are you sure you want to delete '<title>'? This can not be undone!
+    modsDifference:
+        title: Mod Warning
+        desc: The currently installed mods differ from the mods the savegame was created
+            with. This might cause the savegame to break or not load at all. Are
+            you sure you want to continue?
+        missingMods: Missing Mods
+        newMods: Newly installed Mods
+    resourceLoadFailed:
+        title: Resources failed to load
+        demoLinkText: shapez demo on Steam
+        descWeb: "One ore more resources could not be loaded. Make sure you have a
+            stable internet connection and try again. If this still doesn't
+            work, make sure to also disable any browser extensions (including
+            adblockers).<br><br> As an alternative, you can also play the
+            <demoOnSteamLinkText>. <br><br> Error Message:"
+        descSteamDemo: "One ore more resources could not be loaded. Try restarting the
+            game - If that does not help, try reinstalling and verifying the
+            game files via Steam. <br><br> Error Message:"
+    steamSsoError:
+        title: Full Version Logout
+        desc: You have been logged out from the Full Browser Version since either your
+            network connection is unstable or you are playing on another
+            device.<br><br> Please make sure you don't have shapez open in any
+            other browser tab or another computer with the same Steam
+            account.<br><br> You can login again in the main menu.
+    steamSsoNoOwnership:
+        title: Full Edition not owned
+        desc: In order to play the Full Edition in your Browser, you need to own both
+            the base game and the Puzzle DLC on your Steam account.<br><br>
+            Please make sure you own both, signed in with the correct Steam
+            account and then try again.
+ingame:
+    keybindingsOverlay:
+        moveMap: Mover
+        selectBuildings: Selecionar área
+        stopPlacement: Parar
+        rotateBuilding: Rotacionar
+        placeMultiple: Colocar vários
+        reverseOrientation: Inverter orientação
+        disableAutoOrientation: Desligar orientação automática
+        toggleHud: Ocultar interface
+        placeBuilding: Construir objeto
+        createMarker: Criar marcador
+        delete: Destruir
+        pasteLastBlueprint: Colar último projeto
+        lockBeltDirection: Ativar Planejamento de Esteiras
+        plannerSwitchSide: Girar Planejamento
+        cutSelection: Cortar
+        copySelection: Copiar
+        clearSelection: Limpar Seleção
+        pipette: Conta-Gotas
+        switchLayers: Trocar Camadas
+        clearBelts: Clear belts
+    colors:
+        red: Vermelho
+        green: Verde
+        blue: Azul
+        yellow: Amarelo
+        purple: Roxo
+        cyan: Ciano
+        white: Branco
+        black: Preto
+        uncolored: Sem cor
+    buildingPlacement:
+        cycleBuildingVariants: Aperte <key> para variações.
+        hotkeyLabel: "Tecla: <key>"
+        infoTexts:
+            speed: Velocidade
+            range: Distância
+            storage: Estoque
+            oneItemPerSecond: 1 item / segundo
+            itemsPerSecond: <x> itens / s
+            itemsPerSecondDouble: (x2)
+            tiles: <x> tiles
+    levelCompleteNotification:
+        levelTitle: Nível <level>
+        completed: Concluído
+        unlockText: Desbloqueado <reward>!
+        buttonNextLevel: Próximo Nível
+    notifications:
+        newUpgrade: Nova melhoria disponível!
+        gameSaved: Seu jogo foi salvo.
+        freeplayLevelComplete: Level <level> has been completed!
+    shop:
+        title: Melhorias
+        buttonUnlock: Melhorar
+        tier: Nível <x>
+        maximumLevel: NÍVEL MÁXIMO (Velocidade x<currentMult>)
+    statistics:
+        title: Estatísticas
+        dataSources:
+            stored:
+                title: Estoque
+                description: Exibindo a quantidade de formas armazenadas no seu HUB.
+            produced:
+                title: Produção
+                description: Exibindo todas as formas que toda a sua fábrica produz, incluindo
+                    produtos intermediários..
+            delivered:
+                title: Entregue
+                description: Exibindo formas entregues no seu HUB.
+        noShapesProduced: Nenhuma forma foi produzida até o momento.
+        shapesDisplayUnits:
+            second: <shapes> / s
+            minute: <shapes> / m
+            hour: <shapes> / h
+    settingsMenu:
+        playtime: Tempo de Jogo
+        buildingsPlaced: Construções
+        beltsPlaced: Esteiras
+    tutorialHints:
+        title: Quer ajuda?
+        showHint: Mostrar dica
+        hideHint: Esconder dica
+    blueprintPlacer:
+        cost: Custo
+    waypoints:
+        waypoints: Marcadores
+        hub: HUB
+        description: Clique com o botão esquerdo do mouse em um marcador para pular,
+            clique com o botão direito do mouse para excluí-lo. <br><br>
+            Pressione <keybinding> para criar um marcador à partir da exibição
+            atual ou <strong>clique com o botão direito do mouse</strong> para
+            criar um marcador no local selecionado.
+        creationSuccessNotification: Marcador criado.
+    shapeViewer:
+        title: Camadas
+        empty: Vazio
+        copyKey: Copiar Chave
+    interactiveTutorial:
+        title: Tutorial
+        hints:
+            1_1_extractor: Coloque um <strong>extrator</strong> em cima de uma <strong>fonte
+                de círculo</strong> para extraí-lo!
+            1_2_conveyor: Conecte o extrator com uma <strong>esteira transportadora</strong>
+                até a sua base!<br><br>Dica, <strong>clique e arraste</strong> a
+                esteira com o mouse!
+            1_3_expand: Este <strong>NÃO</strong> é um jogo idle! Construa mais extratores e
+                esteiras para concluir o objetivo mais rapidamente.<br><br>Dica,
+                segure <strong>SHIFT</strong> para colocar vários extratores e
+                use <strong>R</strong> para girá-los.
+            2_1_place_cutter: "Agora coloque um <strong>Cortador</strong> para cortar os
+                círculos em duas metades!<br><br> PS: O cortador sempre corta de
+                <strong>cima para baixo</strong> independentemente de sua
+                orientação."
+            2_2_place_trash: O cortador pode <strong>emtupir e parar</strong>!<br><br> Use
+                um <strong>lixo</strong> para se livrar do que atualmente (!)
+                não for necessário.
+            2_3_more_cutters: "Bom trabalho! Agora coloque <strong>mais 2
+                cortadores</strong> para acelerar este processo lento!<br><br>
+                PS: Use as <strong> teclas 0-9 </strong> para acessar as
+                construções mais rápido!"
+            3_1_rectangles: "Vamos extrair alguns retângulos! <strong>Construa 4
+                extratores</strong> e conecte-os ao hub.<br><br> PS: Segure
+                <strong>SHIFT</strong> enquanto arrasta a esteira para ativar o
+                planejador de esteiras!"
+            21_1_place_quad_painter: Coloque o <strong>pintor (quádruplo)</strong> e consiga
+                alguns <strong>circulos</strong>, pigmento
+                <strong>branco</strong> e <strong>vermelho</strong>!
+            21_2_switch_to_wires: Troque para o nível de fios pressionando
+                <strong>E</strong>!<br><br> E então <strong>conecte todos as
+                quatro entradas</strong> do pintor com fios!
+            21_3_place_button: Incrivel! Agora coloque um <strong>interruptor</strong> e o
+                conecte com fio!
+            21_4_press_button: "Pressione o interruptor para fazé-lo <strong>emitir um sinal
+                verdadeiro</strong> o que ativará o pintor.<br><br> OBS: Você
+                não precisa conectar todas as entradas! Tente conectar somente
+                duas."
+            1_2_hold_and_drag: Segurar e arrastar
+    connectedMiners:
+        one_miner: 1 Extrator
+        n_miners: <amount> Extratores
+        limited_items: Limite de <max_throughput>
+    watermark:
+        title: Versão Demo
+        desc: Clique aqui para ver as vantagens da versão completa!
+        get_on_steam: Adquira na Steam
+    standaloneAdvantages:
+        no_thanks: Não, obrigado!
+        points:
+            levels:
+                title: 12 Novos Níveis
+                desc: Para um total de 26 novos níveis!
+            buildings:
+                title: 22 Novas Construções
+                desc: Automatize sua fábrica inteira!
+            markers:
+                title: Marcadores ∞
+                desc: Nunca se perca na sua fábrica!
+            wires:
+                title: Fiação
+                desc: Uma dimensão completamente nova!
+            darkmode:
+                title: Modo Escuro
+                desc: Não machuque mais seus olhos!
+            support:
+                title: Me ajuda
+                desc: Eu desenvolvo o jogo no meu tempo livre!
+            achievements:
+                title: Conquistas
+                desc: Consiga todas elas!
+            mods:
+                title: Modding support!
+                desc: Over 80 mods available!
+        titleV2: "Get the full version now on Steam to unlock:"
+        titleExpiredV2: Demo completed!
+        titleEnjoyingDemo: Enjoy the demo?
+    puzzleEditorSettings:
+        zoneTitle: Zona
+        zoneWidth: Largura
+        zoneHeight: Altura
+        trimZone: Cortar
+        clearItems: Limpar Items
+        share: Compartilhar
+        report: Denunciar
+        clearBuildings: Clear Buildings
+        resetPuzzle: Reset Puzzle
+    puzzleEditorControls:
+        title: Criador de Desafios
+        instructions:
+            - 1. Coloque <strong>Produtores Constantes</strong> para gerar itens
+              e cores ao jogador
+            - 2. Monte uma ou mais itens que você quer que o jogador produza e
+              entregue em um ou mais <strong>Receptores de Objetivo</strong>
+            - 3. Uma vez que um Receptor de Objetivo recebe uma item por uma
+              certa quantidade de tempo, ele <strong>a salva como seu
+              objetivo</strong> , o qual o jogador terá que produzir depois
+              (Indicato pela <strong>insígnia verde</strong>).
+            - 4. Clique no <strong>botao de travar</strong> de uma construção
+              para desabilita-la.
+            - 5. Uma vez que você clicou em revisar, seu desafio será validado e
+              você poderá publica-lo.
+            - 6. Quando seu desafio for publicado, <strong>todas as construções
+              serão removidas</strong> exceto os Produtores Constantes e
+              Receptores de Objetivo - Essa é a parte que o jogador terá que
+              descobrir sozinho, por isso se chama desafio :)
+    puzzleCompletion:
+        title: Desafio Completo!
+        titleLike: "Clique no coração se você gostou do desafio:"
+        titleRating: O qual difícil foi esse desafio?
+        titleRatingDesc: Sua avaliação me ajuda a te fazer sugestões melhores no futuro!
+        continueBtn: Continuar jogando
+        menuBtn: Menu
+        nextPuzzle: Next Puzzle
+    puzzleMetadata:
+        author: Autor
+        shortKey: Código
+        rating: Dificuldade
+        averageDuration: Duração média
+        completionRate: Taxa de sucesso
+shopUpgrades:
+    belt:
+        name: Esteiras, Distribuidores e Túneis
+        description: Velocidade x<currentMult> → x<newMult>
+    miner:
+        name: Extração
+        description: Velocidade x<currentMult> → x<newMult>
+    processors:
+        name: Corte, Rotação e Montagem
+        description: Velocidade x<currentMult> → x<newMult>
+    painting:
+        name: Mistura de cores e Pintura
+        description: Velocidade x<currentMult> → x<newMult>
+buildings:
+    hub:
+        deliver: Entregue
+        toUnlock: para desbloquear
+        levelShortcut: LVL
+        endOfDemo: Fim da Demo
+    belt:
+        default:
+            name: Esteira Transportadora
+            description: Transporta itens; mantenha pressionado e arraste para colocar
+                vários.
+    wire:
+        default:
+            name: Fio de Energia
+            description: Permite transportar energia.
+        second:
+            name: Fio
+            description: Transfere sinais, que podem ser de itens, cores ou binários (1 /
+                0). Fios com cores diferentes não se conectam.
+    miner:
+        default:
+            name: Extrator
+            description: Coloque sobre uma forma ou cor para extraí-la.
+        chainable:
+            name: Extrator (em Cadeia)
+            description: Coloque sobre uma forma ou cor para extraí-la. Pode ser ligado a
+                outros extratores.
+    underground_belt:
+        default:
+            name: Túnel
+            description: Permite transportar recursos por baixo de construções e esteiras.
+        tier2:
+            name: Túnel Classe II
+            description: Permite transportar recursos por baixo de construções e outras
+                esteiras.
+    cutter:
+        default:
+            name: Cortador
+            description: Corta as formas verticalmente e produz as duas metades. <strong>Se
+                você usar apenas uma parte, não se esqueça de destruir a outra
+                parte, ou ela irá parar a produção!</strong>
+        quad:
+            name: Cortador (Quádruplo)
+            description: Corta as formas em quatro partes. <strong>Se você usar apenas uma
+                parte, não se esqueça de destruir as outras, ou ela irá parar a
+                produção!</strong>
+    rotater:
+        default:
+            name: Rotacionador
+            description: Gira as formas no sentido horário em 90 graus.
+        ccw:
+            name: Rotacionador (Anti-horário)
+            description: Gira as formas no sentido anti-horário em 90 graus.
+        rotate180:
+            name: Rotacionador (180°)
+            description: Gira as formas em 180 graus.
+    stacker:
+        default:
+            name: Empilhador
+            description: Empilha os dois itens. Se eles não puderem ser unidos, o item
+                direito será colocado acima do item esquerdo.
+    mixer:
+        default:
+            name: Misturador de Cores
+            description: Mistura duas cores usando mistura aditiva.
+    painter:
+        default:
+            name: Pintor
+            description: Colore a forma inteira na entrada esquerda com a cor da entrada
+                direita.
+        mirrored:
+            name: Pintor
+            description: Colore a forma inteira na entrada esquerda com a cor da entrada
+                direita.
+        double:
+            name: Pintor (Duplo)
+            description: Colore as formas na entrada esquerda com a cor da entrada superior.
+        quad:
+            name: Pintor (Quádruplo)
+            description: Permite que você pinte cada quadrante da forma individualmente.
+                Apenas entradas com um <strong>sinal verdadeiro</strong> no
+                plano de fios serão pintadas!
+    trash:
+        default:
+            name: Lixo
+            description: Aceita qualquer item e os destrói. PARA SEMPRE.
+    balancer:
+        default:
+            name: Balanceador
+            description: Multifuncional - Distribui igualmente todas as entradas para todas
+                as saídas.
+        merger:
+            name: Unificador (compacto)
+            description: Une duas esteiras em uma.
+        merger-inverse:
+            name: Unificador (compacto)
+            description: Une duas esteiras em uma.
+        splitter:
+            name: Divisor (compacto)
+            description: Divide uma esteira em duas.
+        splitter-inverse:
+            name: Divisor (compacto)
+            description: Divide uma esteira em duas.
+    storage:
+        default:
+            name: Armazenamento
+            description: Estoca itens em excesso, até uma certa capacidade. Prioriza a saída
+                da esquerda e pode ser usado como um mecanismo de escape.
+    wire_tunnel:
+        default:
+            name: Cruzamento de Fios
+            description: Permite cruzar dois fios sem conectá-los.
+    constant_signal:
+        default:
+            name: Sinal Constante
+            description: Emite um sinal constante, que pode ser uma forma, cor ou binário (1
+                / 0).
+    lever:
+        default:
+            name: Interruptor
+            description: Pode ser ativado para emitir um sinal binário (1 / 0) no plano da
+                fiação, que pode então ser usado para controlar um filtro, por
+                exemplo.
+    logic_gate:
+        default:
+            name: Portão E (AND)
+            description: Emite um sinal binário "1" se ambas as entradas forem verdadeiras.
+                (Ser verdadeira significa receber um sinal de forma, cor ou
+                binário "1")
+        not:
+            name: Portão NEGAR (NOT)
+            description: Emite um sinal binário "1" se a entrada for falsa. (Ser verdadeira
+                significa receber um sinal de forma, cor ou binário "1")
+        xor:
+            name: Portão OU EXCLUSIVO (XOR)
+            description: Emite um sinal binário "1" se uma das entradas for verdadeira, mas
+                não duas. (Ser verdadeira significa receber um sinal de forma,
+                cor ou binário "1")
+        or:
+            name: Portão OU (OR)
+            description: Emite um sinal binário "1" se uma das entradas for verdadeira. (Ser
+                verdadeira significa receber um sinal de forma, cor ou binário
+                "1")
+    transistor:
+        default:
+            name: Transistor
+            description: Envia o sinal adiante se a entrada for verdadeira. (Ser verdadeira
+                significa receber um sinal de forma, cor ou binário "1")
+        mirrored:
+            name: Transistor
+            description: Envia o sinal adiante se a entrada for verdadeira. (Ser verdadeira
+                significa receber um sinal de forma, cor ou binário "1")
+    filter:
+        default:
+            name: Filtro
+            description: Conecte um sinal para rotear todos os itens desejados para o topo e
+                o restante para a direita. Pode ser controlado por sinais
+                binários também.
+    display:
+        default:
+            name: Display
+            description: Conecte um sinal para exibí-lo no display - Pode ser uma forma, cor
+                ou binário.
+    reader:
+        default:
+            name: Leitor de Esteira
+            description: Permite medir a passagem média de itens na esteira. Emite o último
+                item lido no plano da fiação (quando desbloquado).
+    analyzer:
+        default:
+            name: Analizador de Formas
+            description: Analiza o quadrante superior direito da camada mais baixa da forma
+                e fornece sua forma e cor.
+    comparator:
+        default:
+            name: Comparador
+            description: Devolve um sinal binário "1" se ambos os sinais forem idênticos.
+                Pode comparar formas, itens e binário.
+    virtual_processor:
+        default:
+            name: Cortador Virtual
+            description: Corta virtualmente as formas em duas metades.
+        rotater:
+            name: Rotacionador Virtual
+            description: Rotaciona virtualmente a forma, tanto no sentido horário quanto no
+                anti-horário.
+        unstacker:
+            name: Separador Virtual
+            description: Extrai virtualmente a camada mais acima para a saída direita e as
+                restantes para a esquerda.
+        stacker:
+            name: Empilhador Virtual
+            description: Empilha virtualmente a forma da direita em cima da forma da
+                esquerda.
+        painter:
+            name: Pintor Virtual
+            description: Pinta virtualmente a forma da entrada inferior com a forma da
+                entrada direita.
+    item_producer:
+        default:
+            name: Fabricante de Itens
+            description: Disponível no modo sandbox apenas, envia o sinal recebido do plano
+                de fios para o plano regular.
+    constant_producer:
+        default:
+            name: Produtor Constante
+            description: Produz constantemente um item ou cor específica.
+    goal_acceptor:
+        default:
+            name: Receptor de Objetivo
+            description: Entregue itens ao Receptor de Objetivo para os definir como o
+                objetivo.
+    block:
+        default:
+            name: Bloco
+            description: Te permite bloquear um espaço.
+storyRewards:
+    reward_cutter_and_trash:
+        title: Cortando formas
+        desc: Você acabou de desbloquear o <strong>cortador</strong>, que corta formas
+            pela metade de cima para baixo <strong>independente de sua
+            orientação</strong>!<br><br>Lembre-se de se livrar do lixo, caso
+            contrário, <strong>a máquina irá entupir</strong> - Por isso eu te
+            dei o <strong>lixo</strong>, que destrói tudo que você coloca nele!
+    reward_rotater:
+        title: Rotação
+        desc: O <strong>rotacionador</strong> foi desbloqueado! Gira as formas no
+            sentido horário em 90 graus.
+    reward_painter:
+        title: Pintura
+        desc: "O <strong>Pintor</strong> foi desbloqueado - Extraia alguns pigmentos
+            coloridos (assim como você fez com as formas) e combine-os com uma
+            forma no pintor para colorí-las!<br><br>PS: Se for daltônico, existe
+            um <strong>modo daltônico</strong> nas definições!"
+    reward_mixer:
+        title: Misturando cores
+        desc: O <strong>misturador</strong> foi desbloqueado - combine duas cores usando
+            <strong>mistura aditiva</strong> com esta construção!
+    reward_stacker:
+        title: Empilhador
+        desc: Agora você pode combinar formas com o <strong>empilhador</strong>! Ambas
+            as entradas são combinadas e, se puderem ser colocadas próximas uma
+            da outra, serão <strong>fundidas</strong>. Caso contrário, a entrada
+            direita é <strong>empilhada em cima</strong> da entrada esquerda!
+    reward_splitter:
+        title: Divisor
+        desc: Você desbloqueou uma variante <strong>divisora</strong> do
+            <strong>balanceador</strong> - Ela aceita uma entrada e a divide em
+            duas saídas!
+    reward_tunnel:
+        title: Túnel
+        desc: O <strong>túnel</strong> foi desbloqueado - Agora você pode transportar
+            itens abaixo do solo!
+    reward_rotater_ccw:
+        title: Rotação anti-horária
+        desc: Você desbloqueou uma variante do <strong>rotacionador</strong> - permite
+            girar no sentido anti-horário! Para construí-lo, selecione o
+            rotacionador e <strong>pressione 'T' para alternar suas
+            variantes</strong>!
+    reward_miner_chainable:
+        title: Extrator em Cadeia
+        desc: "Você desbloqueou o <strong>extrator em cadeia</strong>! Ele
+            <strong>encaminha os recursos</strong> para outros extratores para
+            que você possa extrair recursos de forma mais eficiente!<br><br>
+            OBS: O velho extrator foi substituído na sua barra de ferramentas!"
+    reward_underground_belt_tier_2:
+        title: Túnel Classe II
+        desc: Você desbloqueou uma nova variante do <strong>túnel</strong> - ele tem um
+            <strong>maior alcance</strong>, e também pode atravessar outros
+            túneis na mesma linha!
+    reward_cutter_quad:
+        title: Cortador quádruplo
+        desc: Você desbloqueou uma variante do <strong>cortador</strong> - permite
+            cortar formas em <strong>quatro partes</strong> em vez de apenas
+            duas!
+    reward_painter_double:
+        title: Pintura dupla
+        desc: Você desbloqueou uma variante do <strong>pintor</strong> - funciona como o
+            pintor regular, mas processa <strong>duas formas ao mesmo
+            tempo</strong>, consumindo apenas uma cor em vez de duas!
+    reward_storage:
+        title: Armazém
+        desc: Você desbloqueou o <strong>armazém</strong> - Permite que você armazene
+            itens até uma certa capacidade!<br><br> Ele prioriza a saída da
+            esquerda, para que você também possa usá-lo como um <strong>portão
+            de excesso</strong>!
+    reward_freeplay:
+        title: Modo Livre
+        desc: Você conseguiu! Você desbloqueou o <strong>modo livre</strong>! Isso
+            significa que formas agora são geradas
+            <strong>aleatóriamente</strong>!<br><br> Já que o HUB vai precisar
+            de uma entrada <strong>constante</strong> a partir de agora, eu
+            altamente recomendo que você construa uma máquina que entregue
+            automaticamente as formas pedidas!<br><br> O HUB emite a forma
+            pedida no plano dos fios, então tudo que você precisa fazer é
+            analizá-la e automaticamente configurar sua fábrica baseado nessa
+            análise.
+    reward_blueprints:
+        title: Projetos
+        desc: Agora você pode <strong>copiar e colar</strong> partes de sua fábrica!
+            Selecione uma área (mantenha pressionada a tecla CTRL e arraste com
+            o mouse) e pressione 'C' para copiá-la. <br><br>Colar <strong>não é
+            de graça</strong>, é necessário produzir <strong>formas do
+            projeto</strong> para pagar! (Aquelas que você acabou de entregar).
+    no_reward:
+        title: Próximo nível
+        desc: "Este nível não lhe deu nenhuma recompensa, mas em breve?! <br><br>PS:
+            Melhor não destruir sua fábrica existente - Você precisa de
+            <strong>todas</strong> essas formas posteriormente mais tarde para
+            <strong>desbloquear atualizações</strong>!"
+    no_reward_freeplay:
+        title: Próximo nível
+        desc: Parabéns! Aliás, mais conteúdo vindo na versão completa!
+    reward_balancer:
+        title: Balanceador
+        desc: O multifuncional <strong>balanceador</strong> foi desbloqueado - Ele pode
+            ser usado para construir fabricas maiores ao <strong>dividir e
+            juntar itens</strong> em múltiplas esteiras!
+    reward_merger:
+        title: Unificador Compacto
+        desc: Você desbloqueou uma variante <strong>unificadora</strong> do
+            <strong>balanceador</strong> - Ele aceita duas entradas e as junta
+            em uma esteira!
+    reward_belt_reader:
+        title: Leitor de Esteira
+        desc: Você desbloqueou o <strong>leitor de esteira</strong>! Ele permite que
+            você meça a passagem de itens em uma esteira.<br><br>Espere até você
+            desbloquear os fios - ele se torna muito útil!
+    reward_rotater_180:
+        title: Rotacionador (180°)
+        desc: Você acabou de desbloquear o <strong>rotacionador</strong> de 180 graus! -
+            Ele permite que você rotacione uma forma em 180 graus (Surpresa! :D)
+    reward_display:
+        title: Display
+        desc: "Você desbloqueou o <strong>Display</strong> - Conecte um sinal no plano
+            de fios para poder vê-lo!<br><br> PS: Você percebeu que ambos o
+            leitor de esteiras e o armazenamento emitem o último item lido?
+            Tente mostrar isso em um display!"
+    reward_constant_signal:
+        title: Sinal Constante
+        desc: Você desbloqueou a construção que emite um <strong>sinal
+            constante</strong> no plano de fios! Isso é útil para conectar no
+            <strong>filtro de itens</strong> por exemplo.<br><br> O sinal
+            constante pode emitir um sinal de <strong>forma</strong>,
+            <strong>cor</strong> ou <strong>binário</strong> (1 / 0).
+    reward_logic_gates:
+        title: Portões Lógicos
+        desc: Você desbloqueou <strong>portões lógicos</strong>! Você não precisa se
+            animar com isso, mas na verdade é SUPER legal!<br><br> Com estes
+            portões você pode computar operações E (AND), OU (OR), OU EXCLUSIVO
+            (XOR) e NEGAR (NOT).<br><br>c E para a cereja do bolo, eu também te
+            dei um <strong>transistor</strong>!
+    reward_virtual_processing:
+        title: Processamento Virtual
+        desc: Eu acabei de te dar um monte de novas construções que te permitem
+            <strong>simular o processamento de formas</strong>!<br><br> Você
+            pode simular um cortador, rotacionador, empilhador e mais no plano
+            de fiação! Com isso você tem agora três maneiras de continuar
+            jogando:<br><br> - Construir uma <strong>máquina automática</strong>
+            para criar qualquer forma possível pedida pelo HUB (Você deveria
+            tentar!).<br><br> - Construir algo legal com os fios.<br><br> -
+            Continuar jogando normalmente.<br><br> Independente da sua escolha,
+            lembre de se divertir!
+    reward_wires_painter_and_levers:
+        title: Fios e Pintor Quádruplo
+        desc: "Você acabou de desbloquear o <strong>nivel de fios</strong>: Ele é uma
+            dimensão separada da dimensão normal e introduz varias novas
+            mecanicas! <br><br> Para Começar eu desbloqueae para você o
+            <strong>pintor (quádruplo)</strong> - Conecte os espaços que você
+            gostaria de usar para pintar com fios no nivel de fios!<br><br> Para
+            entrar no nivel de fios, pressione <strong>E</strong>. <br><br> OBS:
+            <strong>Ligue as dicas</strong> nas configurações para ativar o
+            tutorial de fios!"
+    reward_filter:
+        title: Filtro de Itens
+        desc: Você desbloqueou o <strong>Filtro de Itens</strong>! Ele irá rotear os
+            itens para a saída superior ou da direit dependendo se eles batem
+            com o sinal vindo do plano dos fios ou não.<br><br> Você também pode
+            inserir um sinal binário (1 / 0) para ativá-lo ou desativá-lo
+            completamente
+    reward_demo_end:
+        title: Fim da Demo
+        desc: Você chegou no fim da versão demo!
+settings:
+    title: Opções
+    categories:
+        general: Geral
+        userInterface: Interface de Usuário
+        advanced: Avançado
+        performance: Performance
+    versionBadges:
+        dev: Desenvolvedor
+        staging: Teste
+        prod: Produção
+    buildDate: Compilado <at-date>
+    labels:
+        uiScale:
+            title: Fonte
+            description: Altera o tamanho da fonte do usuário. A interface ainda será
+                dimensionada com base na resolução do dispositivo, mas essa
+                configuração controla a escala do texto.
+            scales:
+                super_small: Super Pequeno
+                small: Pequeno
+                regular: Normal
+                large: Grande
+                huge: Gigante
+        autosaveInterval:
+            title: Intervalo de autosave.
+            description: Controla a frequência com que o jogo salva automaticamente. Você
+                também pode desativá-lo completamente por aqui.
+            intervals:
+                one_minute: 1 Minuto
+                two_minutes: 2 Minutos
+                five_minutes: 5 Minutos
+                ten_minutes: 10 Minutos
+                twenty_minutes: 20 Minutos
+                disabled: Desativado
+        scrollWheelSensitivity:
+            title: Sensibilidade do zoom
+            description: Altera a sensibilidade do zoom (roda do mouse ou touchpad).
+            sensitivity:
+                super_slow: Super Lento
+                slow: Lento
+                regular: Normal
+                fast: Rápido
+                super_fast: Super Rápido
+        movementSpeed:
+            title: Velocidade da câmera
+            description: Altera a velocidade com que a câmera se move com o teclado.
+            speeds:
+                super_slow: Super Lento
+                slow: Lento
+                regular: Normal
+                fast: Rápido
+                super_fast: Super Rápido
+                extremely_fast: Extremamente Rápido
+        language:
+            title: Idioma
+            description: Altera o idioma. Todas as traduções são contribuições de usuários e
+                podem estar incompletas!
+        enableColorBlindHelper:
+            title: Modo daltônico.
+            description: Habilita várias ferramentas que te permitem jogar se você é
+                daltônico.
+        fullscreen:
+            title: Tela Cheia
+            description: É recomendado jogar o jogo em tela cheia para obter a melhor
+                experiência. Disponível apenas na versão completa.
+        soundsMuted:
+            title: Som
+            description: Se ligado, o jogo fica mudo.
+        musicMuted:
+            title: Música
+            description: Se ligado, a música fica muda.
+        theme:
+            title: Tema
+            description: Escolha o tema entre (Claro / Escuro).
+            themes:
+                dark: Escuro
+                light: Claro
+        refreshRate:
+            title: Frequência
+            description: Se você possui um monitor de 144 hz, altere a taxa de atualização
+                aqui para que o jogo seja simulado corretamente com taxas de
+                atualização mais altas. Isso diminuir o FPS consideravelmente se
+                o computador for muito lento.
+        alwaysMultiplace:
+            title: Posicionamento Múltiplo
+            description: Se ativado, todas as construções permanecerão selecionadas após o
+                posicionamento até que você a cancele. Isso é equivalente a
+                pressionar  SHIFT permanentemente.
+        offerHints:
+            title: Dicas e Tutoriais
+            description: Se ativado, oferece dicas e tutoriais enquanto se joga. Além disso,
+                esconde certos elementos da interface até certo ponto, para
+                facilitar o começo do jogo.
+        enableTunnelSmartplace:
+            title: Túneis Inteligentes
+            description: Quando colocados, irão remover automaticamente esteiras
+                desnecessárias. Isso também permite arrastar túneis e túneis em
+                excesso serão removidos.
+        vignette:
+            title: Vinheta
+            description: Habilita o modo vinheta que escurece os cantos da tela e facilita a
+                leitura do texto.
+        rotationByBuilding:
+            title: Rotação por tipo de construção
+            description: Cada tipo de construção lembra a rotação que você definiu pela
+                última vez individualmente. Isso pode ser mais confortável se
+                você alternar frequentemente entre a colocação de diferentes
+                tipos de construção.
+        compactBuildingInfo:
+            title: Informações compactas sobre construções
+            description: Reduz as caixas de informações dos construções, mostrando apenas
+                suas proporções. Caso contrário, uma descrição e imagem são
+                mostradas.
+        disableCutDeleteWarnings:
+            title: Desativar avisos de recorte / exclusão
+            description: Desativa as caixas de diálogo de aviso exibidas ao cortar / excluir
+                mais de 100 entidades.
+        soundVolume:
+            title: Volume dos sons
+            description: Defina um volume para os efeitos sonoros
+        musicVolume:
+            title: Volume da música
+            description: Defina um volume para a música
+        lowQualityMapResources:
+            title: Recursos do Mapa em Baixa Qualidade
+            description: Simplifica a renderização de recursos no mapa com o zoom aplicado
+                para melhorar a performance. Parece até mais limpo, então tenha
+                certeza de testar!
+        disableTileGrid:
+            title: Desabilite a Grade
+            description: Desabilitar a grade pode ajudar com a performance. Isso também faz
+                o jogo parecer mais limpo!
+        clearCursorOnDeleteWhilePlacing:
+            title: Limpar Cursor com Clique Direito
+            description: Habilitado por padrão, limpa o cursor sempre que você clica com o
+                botão direito enquanto você tem uma construção selecionada. Se
+                desabilitado, você pode deletar construções clicando com o botão
+                direito enquanto tiver algo selecionado.
+        lowQualityTextures:
+            title: Texturas de Baixa Qualidade (Feio)
+            description: Usa texturas de baixa qualidade para ajudar com a performance. Vai
+                deixar o jogo bem feio!
+        displayChunkBorders:
+            title: Mostrar Bordas das Chunks
+            description: O jogo é dividido em chunks de 16x16 ladrilhos, se está
+                configuração estiver habilitada, as bordas de cada chunk ficarão
+                à mostra.
+        pickMinerOnPatch:
+            title: Selecionar Extrator em uma Fonte de Recursos
+            description: Habilitador por padrão, seleciona o extrator se você usar o
+                conta-gotas em uma fonte de recursos.
+        simplifiedBelts:
+            title: Esteiras Simplificadas (Feio)
+            description: Não renderiza itens nas esteiras, exceto quando o cursor estiver em
+                cima da esteira, para melhorar a performance. Eu não recomendo
+                jogar com essa configuração habilitada se você não precisar
+                muito da melhoria de performance.
+        enableMousePan:
+            title: Habilitar Movimento com o Mouse
+            description: Permite mover o mapa ao mover o cursor para as bordas da tela. A
+                velocidade depende da configuração Velocidade de Movimento.
+        zoomToCursor:
+            title: Zoom na direção do cursor
+            description: Se ativado, o zoom irá se deslocar na direção do cursor do seu
+                mouse. Caso contrário, irá para o meio da tela.
+        mapResourcesScale:
+            title: Tamanho do Mapa de Recursos
+            description: Controla o tamanho das formas no mapa de panorama (quando afasta o
+                zoom).
+        shapeTooltipAlwaysOn:
+            title: Dica de ferramente de forma - Mostrar sempre
+            description: >-
+                Deve sempre mostrar a dica de ferramenta de forma ao pairar sobre
+                construções em vez de ter que segurar 'ALT'.
+    rangeSliderPercentage: <amount> %
+    tickrateHz: <amount> Hz
+    newBadge: New!
+keybindings:
+    title: Controles
+    hint: "Dica: Certifique-se de usar CTRL, SHIFT e ALT! Eles permitem diferentes
+        opções de construção."
+    resetKeybindings: Resetar Controles
+    categoryLabels:
+        general: Geral
+        ingame: Jogo
+        navigation: Navegação
+        placement: Posicionamento
+        massSelect: Seleção em Massa
+        buildings: Construções
+        placementModifiers: Modificadores
+        mods: Provided by Mods
+    mappings:
+        confirm: Confirmar
+        back: Voltar
+        mapMoveUp: Mover para cima
+        mapMoveRight: Mover para direita
+        mapMoveDown: Mover para baixo
+        mapMoveLeft: Mover para a esquerda
+        mapMoveFaster: Mover mais rápido
+        centerMap: Centralizar mapa
+        mapZoomIn: Aproximar
+        mapZoomOut: Distanciar
+        createMarker: Criar marcador
+        menuOpenShop: Melhorias
+        menuOpenStats: Estatísticas
+        menuClose: Fechar Menu
+        toggleHud: Ocultar Interface
+        toggleFPSInfo: Mostrar FPS e Debug Info
+        switchLayers: Alternar Camadas
+        exportScreenshot: Exportar Base Inteira como Imagem
+        belt: Esteira Transportadora
+        underground_belt: Túnel
+        miner: Extrator
+        cutter: Cortador
+        rotater: Rotacionador
+        stacker: Empilhador
+        mixer: Misturador de Cores
+        painter: Pintor
+        trash: Lixo
+        wire: Fio de Energia
+        pipette: Conta-Gotas
+        rotateWhilePlacing: Rotacionar
+        rotateInverseModifier: "Modificador: Rotação anti-horária"
+        cycleBuildingVariants: Variações
+        confirmMassDelete: Confirmar exclusão em massa
+        pasteLastBlueprint: Colar último projeto
+        cycleBuildings: Trocar de construção
+        lockBeltDirection: Ativar planejamento de esteira
+        switchDirectionLockSide: "Planejador: Mudar de lado"
+        massSelectStart: Segure e arraste para começar
+        massSelectSelectMultiple: Selecionar mais áreas
+        massSelectCopy: Copiar área
+        massSelectCut: Cortar área
+        placementDisableAutoOrientation: Desligar orientação automática
+        placeMultiple: Permanecer no modo de construção
+        placeInverse: Inverter orientação de esteira
+        balancer: Balanceador
+        storage: Armazenamento
+        constant_signal: Sinal Constante
+        logic_gate: Portão Lógico
+        lever: Interruptor (regular)
+        filter: Filtro
+        wire_tunnel: Cruzamento de Fios
+        display: Display
+        reader: Leitor de Esteira
+        virtual_processor: Cortador Virtual
+        transistor: Transistor
+        analyzer: Analizador de Forma
+        comparator: Comparador
+        item_producer: Produtor de Itens (Sandbox)
+        copyWireValue: "Fios: Copiar valor abaixo do cursor"
+        rotateToUp: "Rotação: Para cima"
+        rotateToDown: "Rotação: Para baixo"
+        rotateToRight: "Rotação: Para direita"
+        rotateToLeft: "Rotação: Para esquerda"
+        constant_producer: Produtor Constante
+        goal_acceptor: Receptor de Objetivo
+        block: Bloco
+        massSelectClear: Limpar esteiras
+        showShapeTooltip: Show shape output tooltip
+about:
+    title: Sobre o jogo
+    body: >-
+        Esse jogo tem código aberto e é desenvolvido por <a
+        href="https://github.com/tobspr" target="_blank">Tobias Springer</a>
+        (esse sou eu).<br><br>
+
+        Se quiser contribuir, confira <a href="<githublink>" target="_blank">shapez.io no github</a>.<br><br>
+
+        O jogo não seria possível sem a comunidade incrível do Discord sobre os meus jogos - Junte-se à comunidade no <a href="<discordlink>" target="_blank">servidor do Discord</a>!<br><br>
+
+        A trilha sonora foi feita por <a href="https://soundcloud.com/pettersumelius" target="_blank">Peppsen</a> - Ele é demais.<br><br>
+
+        Finalmente, agradeço muito ao meu melhor amigo <a href="https://github.com/niklas-dahl" target="_blank">Niklas</a> - Sem nossas sessões de Factorio, esse jogo nunca teria existido.
+changelog:
+    title: Alterações
+demo:
+    features:
+        restoringGames: Restaurar jogos salvos
+        importingGames: Carregar jogos salvos
+        oneGameLimit: Limitado a um jogo salvo
+        customizeKeybindings: Modificar Teclas
+        exportingBase: Exportar Base inteira como Imagem
+    settingNotAvailable: Não disponível na versão demo.
+tips:
+    - O HUB aceita qualquer tipo de forma, não apenas a pedida!
+    - Tenha certeza que seus designs são modulares - vai valer a pena!
+    - Não construa muito perto do HUB, ou será um caos!
+    - Se o empilhamento não funcionar, tente inverter as entradas.
+    - Você pode mudar a direção do planejador de esteiras apertando <b>R</b>.
+    - Segurar <b>CTRL</b> permite arrastar esteiras sem a orientação automática.
+    - As proporções se matém, desde que todas as melhorias estejam no mesmo
+      nível.
+    - Execução em série é mais eficiete que a paralela.
+    - Você desbloqueará variantes de construções mais para frente no jogo!
+    - Você pode usar <b>T</b> para mudar para diferentes variantes.
+    - Simetria é crucial!
+    - Você pode entrelaçar diferentes níveis de túnel.
+    - Tente construir fábricas compactas - vai valer a pena!
+    - O pintor tem uma variante espelhada que você pode selecionar com <b>T</b>
+    - Ter as proporções certas para cada construção vai maximizar sua eficiência.
+    - No nível máximo, 5 extratores vão encher uma única esteira.
+    - Não se esqueça dos túneis!
+    - Você não precisa dividir os itens igualmente para ter máxima eficiência.
+    - Segurar <b>SHIFT</b> vai ativar o planejamento de esteiras, te permitindo
+      colocar longas esteiras mais facilmente.
+    - Cortadores sempre cortam verticalmente, independente da orientação.
+    - Misture todas as cores para obter branco.
+    - O armazenamento prioriza a saída primária.
+    - Invista tempo em construir designs que podem ser repetidos - vale a pena!
+    - Segurar <b>CTRL</b> permite colocar múltiplas construções.
+    - Segure <b>ALT</b> para inverter a direção de esteiras posicionadas.
+    - Efficiência é a chave!
+    - Fontes de recursos mais distantes do HUB são mais complexas.
+    - Máquinas tem uma velocidade máxima, divida os itens para uma eficiência
+      máxima.
+    - Use balanceadores para maximizar sua eficiência.
+    - Organização é importante. Tente não entrelaçar muitas esteiras.
+    - Planeje com antecedência, ou tudo será um caos!
+    - Não remova suas fábricas antigas! Você precisará delas para desbloquear
+      melhorias.
+    - Tente passar do nível 20 sozinho antes de pedir ajuda!
+    - Não complique as coisas, tente manter tudo simples e você irá longe.
+    - Talvez você precise reusar fábricas antigas no futuro. Planeje-as para que
+      sejam reutilizáveis.
+    - As vezes, você pode encontrar uma forma necessária no mapa sem criá-la com
+      empilhadores.
+    - Moinhos completos nunca vão aparecer naturalmente.
+    - Pinte suas formas antes de cortar para ter máxima eficiência.
+    - Com módulos, espaço é meramente uma percepção; uma preocupação para
+      mortais.
+    - Faça uma fábrica separada para projetos. Eles são importantes para os
+      módulos.
+    - Dê uma olhada mais de perto no misturador de cores, e suas perguntas serão
+      respondidas.
+    - Use <b>CTRL</b> + Clique para selecionar uma área.
+    - Construções muito perto do HUB podem entrar no caminho de projetos futuros.
+    - O ícone de pin ao lado de cada forma na lista de melhorias fixa essa forma
+      na tela.
+    - Misture todas as cores primárias para fazer tinta branca!
+    - Você tem um mapa infinito, não amontoe sua fábrica, expanda!
+    - Tente também Factorio! É meu jogo favorito.
+    - O cortador quádruplo corta no sentido anti-horário começando pelo topo
+      direito!
+    - Você pode baixar seus saves no menu principal!
+    - Este jogo tem um monte de teclas úteis! Tenha certeza de checar a aba de
+      configurações.
+    - Este jogo tem muitas configurações, então dê uma olhada!
+    - O marcador para o HUB tem uma pequena bússola para indicar sua direção!
+    - Para limpar as esteiras, corte a área e cole-a no mesmo lugar.
+    - Pressione F4 para mostrar seu FPS e taxa de tiques.
+    - Pressione F4 duas vezes para mostrar o ladrilho do seu mouse e da câmera.
+    - Você pode clicar em uma forma fixada na esquerda para tirá-la de lá.
+puzzleMenu:
+    play: Jogar
+    edit: Editar
+    title: Modo Puzzle
+    createPuzzle: Criar Desafio
+    loadPuzzle: Carregar
+    reviewPuzzle: Revisar e Publicar
+    validatingPuzzle: Validando Desafio
+    submittingPuzzle: Enviando Desafio
+    noPuzzles: Não existem desafios nesta categoria atualmente.
+    categories:
+        levels: Níveis
+        new: Novo
+        top-rated: Melhor Avaliados
+        mine: Meus Desafios
+        easy: Fácil
+        hard: Difícil
+        completed: Completados
+        medium: Medium
+        official: Official
+        trending: Trending today
+        trending-weekly: Trending weekly
+        categories: Categories
+        difficulties: By Difficulty
+        account: My Puzzles
+        search: Search
+    validation:
+        title: Desafio inválido
+        noProducers: Por favor coloque um Produtor Constante!
+        noGoalAcceptors: Por favor coloque um Receptor de Objetivo!
+        goalAcceptorNoItem: Um ou mais Receptores de Objetivo ainda não tiveram um item
+            determinado. Entregue um item a ele para definir seu objetivo.
+        goalAcceptorRateNotMet: Um ou mais Receptores de Objetivo não estão recebendo
+            itens suficientes. Garanta que os indicadores estejam verdes para
+            todos os Receptores.
+        buildingOutOfBounds: Uma ou mais construções estão fora da área construível.
+            Você pode aumentar a área ou removê-los.
+        autoComplete: Seu desafio se completa sozinho! Por favor garanta que seus
+            Produtores Constantes não estão entregando diretamente aos seus
+            Receptores de Objetivo.
+    difficulties:
+        easy: Easy
+        medium: Medium
+        hard: Hard
+        unknown: Unrated
+    dlcHint: Purchased the DLC already? Make sure it is activated by right clicking
+        shapez.io in your library, selecting Properties > DLCs.
+    search:
+        action: Search
+        placeholder: Enter a puzzle or author name
+        includeCompleted: Include Completed
+        difficulties:
+            any: Any Difficulty
+            easy: Easy
+            medium: Medium
+            hard: Hard
+        durations:
+            any: Any Duration
+            short: Short (< 2 min)
+            medium: Normal
+            long: Long (> 10 min)
+backendErrors:
+    ratelimit: Você está fazendo coisas muito rapidamente. Por favor espere um pouco.
+    invalid-api-key: Falha ao comunicar com o backend, por favor tente
+        atualizar/reiniciar o jogo (Chave API Inválida).
+    unauthorized: Falha ao comunicar com o backend, por favor tente
+        atualizar/reiniciar o jogo (Não autorizado).
+    bad-token: Falha ao comunicar com o backend, por favor tente atualizar/reiniciar
+        o jogo (Bad Token).
+    bad-id: Indentificador de desafio inválido.
+    not-found: O desafio não pôde ser achado.
+    bad-category: A categoria não pôde ser achada.
+    bad-short-key: O código é inválido.
+    profane-title: O nome do seu desafio contém palavras proibidas.
+    bad-title-too-many-spaces: O nome do seu desafio é muito curto.
+    bad-shape-key-in-emitter: Um Produtor Constante contém um item inválido.
+    bad-shape-key-in-goal: Um Receptor de Objetivo contém um item inválido.
+    no-emitters: Seu desafio não contém nenhum Produtor Constante.
+    no-goals: Seu desafio não contém nenhum Receptor de Objetivo.
+    short-key-already-taken: Esse código já está sendo usado, por favor escolha outro.
+    can-not-report-your-own-puzzle: Você não pode denunciar seu próprio desafio.
+    bad-payload: O pedido contém dados inválidos.
+    bad-building-placement: Seu desafio contém construções colocadas de forma inválida.
+    timeout: Acabou o tempo do pedido.
+    too-many-likes-already: The puzzle alreay got too many likes. If you still want
+        to remove it, please contact support@shapez.io!
+    no-permission: You do not have the permission to perform this action.
+mods:
+    title: Mods
+    author: Author
+    version: Version
+    modWebsite: Website
+    openFolder: Open Mods Folder
+    folderOnlyStandalone: Opening the mod folder is only possible when running the standalone.
+    browseMods: Browse Mods
+    modsInfo: To install and manage mods, copy them to the mods folder within the
+        game directory. You can also use the 'Open Mods Folder' button on the
+        top right.
+    noModSupport: You need the standalone version on Steam to install mods.
+    togglingComingSoon:
+        title: Coming Soon
+        description: Enabling or disabling mods is currently only possible by copying
+            the mod file from or to the mods/ folder. However, being able to
+            toggle them here is planned for a future update!
+    browserNoSupport: Due to browser restrictions it is currently only possible to
+        install mods in the Steam version - Sorry!
