@@ -54,7 +54,7 @@ nav{
     text-align: center;
     margin-top: 15%;
 }
-.gameTable tr td figure img, .gameTable tr td figcaption, .gameTable tr td a{
+.gameTable tr td figure img, .gameTable tr td figcaption , .gameTable tr td a{
     width: 200px;
     color: white;
     display: block;
@@ -63,10 +63,14 @@ nav{
     text-decoration: none;
     margin: 20px;
 }
-table{
+table{  
     table-layout:fixed;
+    align-content: center;
 }
 h1 , h3{
     color: white;
     text-align: center;
+}
+#notSquare{
+    border-radius: 0px;
 }
