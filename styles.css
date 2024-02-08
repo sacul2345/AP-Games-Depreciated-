@@ -64,7 +64,7 @@ nav{
     margin: 20px;
 }
 table{  
-    table-layout:fixed;
+    table-layout:auto;
     align-content: center;
 }
 h1 , h3{
