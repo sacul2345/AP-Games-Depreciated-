@@ -66,6 +66,7 @@ nav{
 table{  
     table-layout:auto;
     align-content: center;
+    overflow-x: hidden;
 }
 h1 , h3{
     color: white;
